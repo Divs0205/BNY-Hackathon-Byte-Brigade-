@@ -1,1001 +1,1001 @@
-customer_id,risk_score,risk_tier,decision,top_risk_factors
-C5000,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5001,0,LOW,APPROVE,None
-C5002,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5003,75,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
-C5004,15,LOW,APPROVE,Unverified Address
-C5005,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5006,80,HIGH,REJECT/EDD,Prior Fraud History
-C5007,80,HIGH,REJECT/EDD,Prior Fraud History
-C5008,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5009,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5010,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High-Risk Geography"
-C5011,25,LOW,APPROVE,High-Risk Geography
-C5012,0,LOW,APPROVE,None
-C5013,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5014,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5015,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5016,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5017,20,LOW,APPROVE,High Digital Device Risk
-C5018,0,LOW,APPROVE,None
-C5019,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High-Risk Geography"
-C5020,100,HIGH,REJECT/EDD,"Sanctions List Match, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5021,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5022,25,LOW,APPROVE,High-Risk Geography
-C5023,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5024,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5025,80,HIGH,REJECT/EDD,Prior Fraud History
-C5026,25,LOW,APPROVE,High-Risk Geography
-C5027,0,LOW,APPROVE,None
-C5028,80,HIGH,REJECT/EDD,Prior Fraud History
-C5029,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5030,0,LOW,APPROVE,None
-C5031,80,HIGH,REJECT/EDD,Prior Fraud History
-C5032,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5033,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5034,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
-C5035,0,LOW,APPROVE,None
-C5036,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5037,0,LOW,APPROVE,None
-C5038,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5039,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5040,80,HIGH,REJECT/EDD,Prior Fraud History
-C5041,80,HIGH,REJECT/EDD,Prior Fraud History
-C5042,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5043,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5044,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
-C5045,100,HIGH,REJECT/EDD,Sanctions List Match
-C5046,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5047,25,LOW,APPROVE,High-Risk Geography
-C5048,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Unverified Address"
-C5049,20,LOW,APPROVE,High Digital Device Risk
-C5050,0,LOW,APPROVE,None
-C5051,75,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
-C5052,0,LOW,APPROVE,None
-C5053,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5054,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5055,25,LOW,APPROVE,High-Risk Geography
-C5056,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5057,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5058,80,HIGH,REJECT/EDD,Prior Fraud History
-C5059,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5060,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5061,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5062,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5063,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5064,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5065,20,LOW,APPROVE,High Digital Device Risk
-C5066,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5067,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5068,0,LOW,APPROVE,None
-C5069,80,HIGH,REJECT/EDD,Prior Fraud History
-C5070,80,HIGH,REJECT/EDD,Prior Fraud History
-C5071,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5072,90,HIGH,REJECT/EDD,Prior Fraud History
-C5073,20,LOW,APPROVE,High Digital Device Risk
-C5074,80,HIGH,REJECT/EDD,Prior Fraud History
-C5075,15,LOW,APPROVE,Unverified Address
-C5076,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5077,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5078,75,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), High Digital Device Risk, Unverified Address"
-C5079,25,LOW,APPROVE,High-Risk Geography
-C5080,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5081,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5082,80,HIGH,REJECT/EDD,Prior Fraud History
-C5083,25,LOW,APPROVE,High-Risk Geography
-C5084,15,LOW,APPROVE,Unverified Address
-C5085,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5086,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5087,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5088,100,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High-Risk Geography"
-C5089,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5090,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5091,45,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
-C5092,95,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5093,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5094,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5095,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5096,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5097,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5098,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5099,80,HIGH,REJECT/EDD,Prior Fraud History
-C5100,95,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5101,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5102,80,HIGH,REJECT/EDD,Prior Fraud History
-C5103,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5104,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5105,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5106,0,LOW,APPROVE,None
-C5107,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5108,80,HIGH,REJECT/EDD,Prior Fraud History
-C5109,80,HIGH,REJECT/EDD,Prior Fraud History
-C5110,25,LOW,APPROVE,High-Risk Geography
-C5111,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5112,20,LOW,APPROVE,High Digital Device Risk
-C5113,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5114,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5115,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5116,25,LOW,APPROVE,High-Risk Geography
-C5117,55,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
-C5118,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5119,80,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5120,25,LOW,APPROVE,High-Risk Geography
-C5121,15,LOW,APPROVE,Unverified Address
-C5122,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5123,20,LOW,APPROVE,High Digital Device Risk
-C5124,25,LOW,APPROVE,High-Risk Geography
-C5125,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5126,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5127,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5128,15,LOW,APPROVE,Unverified Address
-C5129,80,HIGH,REJECT/EDD,Prior Fraud History
-C5130,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5131,80,HIGH,REJECT/EDD,Prior Fraud History
-C5132,15,LOW,APPROVE,Unverified Address
-C5133,20,LOW,APPROVE,High Digital Device Risk
-C5134,0,LOW,APPROVE,None
-C5135,80,HIGH,REJECT/EDD,Prior Fraud History
-C5136,80,HIGH,REJECT/EDD,Prior Fraud History
-C5137,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5138,25,LOW,APPROVE,High-Risk Geography
-C5139,20,LOW,APPROVE,High Digital Device Risk
-C5140,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
-C5141,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5142,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5143,25,LOW,APPROVE,High-Risk Geography
-C5144,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
-C5145,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5146,0,LOW,APPROVE,None
-C5147,80,HIGH,REJECT/EDD,Prior Fraud History
-C5148,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5149,65,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
-C5150,15,LOW,APPROVE,Unverified Address
-C5151,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5152,0,LOW,APPROVE,None
-C5153,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5154,65,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
-C5155,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5156,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5157,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5158,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5159,25,LOW,APPROVE,High-Risk Geography
-C5160,0,LOW,APPROVE,None
-C5161,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5162,0,LOW,APPROVE,None
-C5163,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5164,20,LOW,APPROVE,High Digital Device Risk
-C5165,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5166,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5167,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5168,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5169,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5170,25,LOW,APPROVE,High-Risk Geography
-C5171,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5172,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5173,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5174,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5175,15,LOW,APPROVE,Unverified Address
-C5176,80,HIGH,REJECT/EDD,Prior Fraud History
-C5177,30,LOW,APPROVE,High Digital Device Risk
-C5178,25,LOW,APPROVE,Unverified Address
-C5179,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5180,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5181,25,LOW,APPROVE,High-Risk Geography
-C5182,0,LOW,APPROVE,None
-C5183,25,LOW,APPROVE,High-Risk Geography
-C5184,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5185,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5186,80,HIGH,REJECT/EDD,Prior Fraud History
-C5187,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5188,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5189,0,LOW,APPROVE,None
-C5190,80,HIGH,REJECT/EDD,Prior Fraud History
-C5191,60,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
-C5192,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5193,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5194,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5195,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5196,15,LOW,APPROVE,Unverified Address
-C5197,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5198,0,LOW,APPROVE,None
-C5199,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5200,80,HIGH,REJECT/EDD,Prior Fraud History
-C5201,0,LOW,APPROVE,None
-C5202,15,LOW,APPROVE,Unverified Address
-C5203,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High-Risk Geography"
-C5204,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5205,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5206,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5207,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5208,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
-C5209,0,LOW,APPROVE,None
-C5210,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5211,100,HIGH,REJECT/EDD,Sanctions List Match
-C5212,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5213,0,LOW,APPROVE,None
-C5214,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5215,25,LOW,APPROVE,High-Risk Geography
-C5216,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5217,20,LOW,APPROVE,High Digital Device Risk
-C5218,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5219,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5220,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5221,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High-Risk Geography"
-C5222,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5223,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5224,25,LOW,APPROVE,High-Risk Geography
-C5225,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5226,80,HIGH,REJECT/EDD,Prior Fraud History
-C5227,10,LOW,APPROVE,None
-C5228,80,HIGH,REJECT/EDD,Prior Fraud History
-C5229,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5230,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5231,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5232,0,LOW,APPROVE,None
-C5233,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5234,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5235,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5236,0,LOW,APPROVE,None
-C5237,80,HIGH,REJECT/EDD,Prior Fraud History
-C5238,20,LOW,APPROVE,High Digital Device Risk
-C5239,0,LOW,APPROVE,None
-C5240,0,LOW,APPROVE,None
-C5241,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5242,45,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
-C5243,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5244,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5245,20,LOW,APPROVE,High Digital Device Risk
-C5246,80,HIGH,REJECT/EDD,Prior Fraud History
-C5247,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5248,80,HIGH,REJECT/EDD,Prior Fraud History
-C5249,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5250,0,LOW,APPROVE,None
-C5251,80,HIGH,REJECT/EDD,Prior Fraud History
-C5252,80,HIGH,REJECT/EDD,Prior Fraud History
-C5253,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5254,80,HIGH,REJECT/EDD,Prior Fraud History
-C5255,95,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5256,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5257,90,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, Unverified Address"
-C5258,80,HIGH,REJECT/EDD,Prior Fraud History
-C5259,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5260,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5261,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5262,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5263,0,LOW,APPROVE,None
-C5264,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5265,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5266,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5267,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5268,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5269,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5270,20,LOW,APPROVE,High Digital Device Risk
-C5271,0,LOW,APPROVE,None
-C5272,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5273,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5274,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5275,80,HIGH,REJECT/EDD,Prior Fraud History
-C5276,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5277,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5278,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5279,90,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5280,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5281,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5282,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5283,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5284,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5285,0,LOW,APPROVE,None
-C5286,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5287,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5288,80,HIGH,REJECT/EDD,Prior Fraud History
-C5289,20,LOW,APPROVE,High Digital Device Risk
-C5290,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
-C5291,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High-Risk Geography"
-C5292,80,HIGH,REJECT/EDD,Prior Fraud History
-C5293,80,HIGH,REJECT/EDD,Prior Fraud History
-C5294,15,LOW,APPROVE,Unverified Address
-C5295,100,HIGH,REJECT/EDD,"Sanctions List Match, Adverse Media Found"
-C5296,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5297,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5298,25,LOW,APPROVE,High-Risk Geography
-C5299,0,LOW,APPROVE,None
-C5300,0,LOW,APPROVE,None
-C5301,25,LOW,APPROVE,High-Risk Geography
-C5302,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5303,100,HIGH,REJECT/EDD,"Sanctions List Match, Politically Exposed Person (PEP), Adverse Media Found"
-C5304,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5305,20,LOW,APPROVE,High Digital Device Risk
-C5306,20,LOW,APPROVE,High Digital Device Risk
-C5307,80,HIGH,REJECT/EDD,Prior Fraud History
-C5308,80,HIGH,REJECT/EDD,Prior Fraud History
-C5309,15,LOW,APPROVE,Unverified Address
-C5310,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5311,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5312,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5313,0,LOW,APPROVE,None
-C5314,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5315,80,HIGH,REJECT/EDD,Prior Fraud History
-C5316,0,LOW,APPROVE,None
-C5317,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5318,80,HIGH,REJECT/EDD,Prior Fraud History
-C5319,0,LOW,APPROVE,None
-C5320,15,LOW,APPROVE,Unverified Address
-C5321,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5322,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5323,90,HIGH,REJECT/EDD,Prior Fraud History
-C5324,80,HIGH,REJECT/EDD,Prior Fraud History
-C5325,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5326,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5327,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5328,25,LOW,APPROVE,High-Risk Geography
-C5329,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5330,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5331,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5332,60,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
-C5333,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High Digital Device Risk"
-C5334,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5335,0,LOW,APPROVE,None
-C5336,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5337,90,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
-C5338,80,HIGH,REJECT/EDD,Prior Fraud History
-C5339,25,LOW,APPROVE,High-Risk Geography
-C5340,85,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, High Digital Device Risk"
-C5341,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5342,0,LOW,APPROVE,None
-C5343,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5344,90,HIGH,REJECT/EDD,Prior Fraud History
-C5345,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5346,0,LOW,APPROVE,None
-C5347,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5348,0,LOW,APPROVE,None
-C5349,80,HIGH,REJECT/EDD,Prior Fraud History
-C5350,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5351,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5352,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5353,80,HIGH,REJECT/EDD,Prior Fraud History
-C5354,0,LOW,APPROVE,None
-C5355,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5356,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5357,25,LOW,APPROVE,High-Risk Geography
-C5358,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5359,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5360,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5361,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5362,75,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5363,0,LOW,APPROVE,None
-C5364,20,LOW,APPROVE,High Digital Device Risk
-C5365,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5366,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5367,25,LOW,APPROVE,High-Risk Geography
-C5368,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5369,0,LOW,APPROVE,None
-C5370,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High-Risk Geography"
-C5371,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5372,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5373,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5374,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5375,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5376,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
-C5377,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5378,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5379,0,LOW,APPROVE,None
-C5380,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5381,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
-C5382,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5383,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5384,100,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, High Digital Device Risk"
-C5385,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5386,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5387,0,LOW,APPROVE,None
-C5388,80,HIGH,REJECT/EDD,Prior Fraud History
-C5389,100,HIGH,REJECT/EDD,"Sanctions List Match, High Digital Device Risk"
-C5390,80,HIGH,REJECT/EDD,Prior Fraud History
-C5391,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5392,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5393,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5394,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5395,15,LOW,APPROVE,Unverified Address
-C5396,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
-C5397,15,LOW,APPROVE,Unverified Address
-C5398,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5399,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5400,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5401,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5402,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5403,60,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
-C5404,80,HIGH,REJECT/EDD,Prior Fraud History
-C5405,0,LOW,APPROVE,None
-C5406,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5407,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5408,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5409,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5410,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5411,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5412,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5413,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5414,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Politically Exposed Person (PEP)"
-C5415,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5416,80,HIGH,REJECT/EDD,Prior Fraud History
-C5417,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5418,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5419,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5420,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5421,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5422,0,LOW,APPROVE,None
-C5423,20,LOW,APPROVE,High Digital Device Risk
-C5424,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5425,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5426,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5427,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5428,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5429,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5430,100,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High-Risk Geography"
-C5431,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5432,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5433,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5434,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5435,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
-C5436,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5437,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5438,80,HIGH,REJECT/EDD,Prior Fraud History
-C5439,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5440,20,LOW,APPROVE,High Digital Device Risk
-C5441,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5442,80,HIGH,REJECT/EDD,Prior Fraud History
-C5443,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5444,0,LOW,APPROVE,None
-C5445,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High Digital Device Risk"
-C5446,0,LOW,APPROVE,None
-C5447,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5448,80,HIGH,REJECT/EDD,Prior Fraud History
-C5449,80,HIGH,REJECT/EDD,Prior Fraud History
-C5450,45,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
-C5451,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5452,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5453,15,LOW,APPROVE,Unverified Address
-C5454,85,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), High-Risk Geography, High Digital Device Risk"
-C5455,0,LOW,APPROVE,None
-C5456,0,LOW,APPROVE,None
-C5457,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5458,60,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
-C5459,80,HIGH,REJECT/EDD,Prior Fraud History
-C5460,0,LOW,APPROVE,None
-C5461,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5462,0,LOW,APPROVE,None
-C5463,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Adverse Media Found"
-C5464,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5465,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5466,0,LOW,APPROVE,None
-C5467,65,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High-Risk Geography"
-C5468,80,HIGH,REJECT/EDD,Prior Fraud History
-C5469,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5470,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5471,55,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
-C5472,0,LOW,APPROVE,None
-C5473,80,HIGH,REJECT/EDD,Prior Fraud History
-C5474,0,LOW,APPROVE,None
-C5475,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5476,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5477,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
-C5478,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5479,0,LOW,APPROVE,None
-C5480,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5481,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5482,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5483,15,LOW,APPROVE,Unverified Address
-C5484,15,LOW,APPROVE,Unverified Address
-C5485,0,LOW,APPROVE,None
-C5486,100,HIGH,REJECT/EDD,"Sanctions List Match, High Digital Device Risk"
-C5487,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5488,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5489,20,LOW,APPROVE,High Digital Device Risk
-C5490,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5491,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5492,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5493,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5494,15,LOW,APPROVE,Unverified Address
-C5495,80,HIGH,REJECT/EDD,Prior Fraud History
-C5496,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5497,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5498,45,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
-C5499,100,HIGH,REJECT/EDD,"Sanctions List Match, Missing/Invalid KYC Docs"
-C5500,20,LOW,APPROVE,High Digital Device Risk
-C5501,20,LOW,APPROVE,High Digital Device Risk
-C5502,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5503,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5504,0,LOW,APPROVE,None
-C5505,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5506,80,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
-C5507,20,LOW,APPROVE,High Digital Device Risk
-C5508,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5509,20,LOW,APPROVE,High Digital Device Risk
-C5510,20,LOW,APPROVE,High Digital Device Risk
-C5511,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5512,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5513,80,HIGH,REJECT/EDD,Prior Fraud History
-C5514,0,LOW,APPROVE,None
-C5515,80,HIGH,REJECT/EDD,Prior Fraud History
-C5516,15,LOW,APPROVE,Unverified Address
-C5517,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5518,20,LOW,APPROVE,High Digital Device Risk
-C5519,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5520,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5521,80,HIGH,REJECT/EDD,Prior Fraud History
-C5522,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5523,80,HIGH,REJECT/EDD,Prior Fraud History
-C5524,25,LOW,APPROVE,High-Risk Geography
-C5525,0,LOW,APPROVE,None
-C5526,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5527,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
-C5528,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Adverse Media Found, High Digital Device Risk"
-C5529,0,LOW,APPROVE,None
-C5530,80,HIGH,REJECT/EDD,Prior Fraud History
-C5531,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
-C5532,75,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5533,0,LOW,APPROVE,None
-C5534,80,HIGH,REJECT/EDD,Prior Fraud History
-C5535,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5536,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
-C5537,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5538,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5539,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5540,80,HIGH,REJECT/EDD,Prior Fraud History
-C5541,95,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High Digital Device Risk"
-C5542,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5543,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5544,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5545,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5546,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5547,90,HIGH,REJECT/EDD,Prior Fraud History
-C5548,90,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
-C5549,25,LOW,APPROVE,High-Risk Geography
-C5550,0,LOW,APPROVE,None
-C5551,20,LOW,APPROVE,High Digital Device Risk
-C5552,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5553,10,LOW,APPROVE,None
-C5554,20,LOW,APPROVE,High Digital Device Risk
-C5555,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5556,45,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
-C5557,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5558,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5559,0,LOW,APPROVE,None
-C5560,20,LOW,APPROVE,High Digital Device Risk
-C5561,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5562,55,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), Unverified Address"
-C5563,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5564,80,HIGH,REJECT/EDD,Prior Fraud History
-C5565,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5566,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5567,25,LOW,APPROVE,High-Risk Geography
-C5568,0,LOW,APPROVE,None
-C5569,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5570,80,HIGH,REJECT/EDD,Prior Fraud History
-C5571,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
-C5572,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5573,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5574,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
-C5575,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5576,45,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
-C5577,80,HIGH,REJECT/EDD,Prior Fraud History
-C5578,20,LOW,APPROVE,High Digital Device Risk
-C5579,80,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5580,60,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
-C5581,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5582,0,LOW,APPROVE,None
-C5583,80,HIGH,REJECT/EDD,Prior Fraud History
-C5584,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5585,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5586,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5587,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5588,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5589,80,HIGH,REJECT/EDD,Prior Fraud History
-C5590,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5591,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5592,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5593,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5594,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5595,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5596,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5597,20,LOW,APPROVE,High Digital Device Risk
-C5598,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5599,45,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
-C5600,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5601,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5602,20,LOW,APPROVE,High Digital Device Risk
-C5603,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5604,0,LOW,APPROVE,None
-C5605,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5606,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5607,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5608,65,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High-Risk Geography"
-C5609,0,LOW,APPROVE,None
-C5610,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5611,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5612,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5613,0,LOW,APPROVE,None
-C5614,25,LOW,APPROVE,High-Risk Geography
-C5615,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5616,100,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High-Risk Geography"
-C5617,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5618,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5619,100,HIGH,REJECT/EDD,Sanctions List Match
-C5620,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5621,25,LOW,APPROVE,High-Risk Geography
-C5622,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5623,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5624,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5625,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5626,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5627,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5628,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5629,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5630,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5631,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5632,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5633,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5634,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5635,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5636,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5637,45,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
-C5638,80,HIGH,REJECT/EDD,Prior Fraud History
-C5639,15,LOW,APPROVE,Unverified Address
-C5640,65,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
-C5641,15,LOW,APPROVE,Unverified Address
-C5642,0,LOW,APPROVE,None
-C5643,0,LOW,APPROVE,None
-C5644,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
-C5645,0,LOW,APPROVE,None
-C5646,15,LOW,APPROVE,Unverified Address
-C5647,80,HIGH,REJECT/EDD,Prior Fraud History
-C5648,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5649,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
-C5650,0,LOW,APPROVE,None
-C5651,0,LOW,APPROVE,None
-C5652,0,LOW,APPROVE,None
-C5653,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5654,45,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
-C5655,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
-C5656,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5657,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5658,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5659,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Unverified Address"
-C5660,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Missing/Invalid KYC Docs"
-C5661,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5662,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5663,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5664,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5665,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5666,25,LOW,APPROVE,High-Risk Geography
-C5667,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5668,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5669,0,LOW,APPROVE,None
-C5670,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5671,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5672,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5673,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5674,80,HIGH,REJECT/EDD,Prior Fraud History
-C5675,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5676,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5677,70,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High Digital Device Risk"
-C5678,80,HIGH,REJECT/EDD,Prior Fraud History
-C5679,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5680,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5681,25,LOW,APPROVE,High-Risk Geography
-C5682,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5683,0,LOW,APPROVE,None
-C5684,100,HIGH,REJECT/EDD,Sanctions List Match
-C5685,80,HIGH,REJECT/EDD,Prior Fraud History
-C5686,55,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
-C5687,0,LOW,APPROVE,None
-C5688,80,HIGH,REJECT/EDD,Prior Fraud History
-C5689,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5690,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5691,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5692,20,LOW,APPROVE,High Digital Device Risk
-C5693,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5694,0,LOW,APPROVE,None
-C5695,80,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
-C5696,0,LOW,APPROVE,None
-C5697,0,LOW,APPROVE,None
-C5698,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5699,0,LOW,APPROVE,None
-C5700,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5701,0,LOW,APPROVE,None
-C5702,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5703,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5704,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5705,20,LOW,APPROVE,High Digital Device Risk
-C5706,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5707,0,LOW,APPROVE,None
-C5708,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5709,25,LOW,APPROVE,High-Risk Geography
-C5710,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5711,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5712,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Missing/Invalid KYC Docs"
-C5713,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5714,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
-C5715,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5716,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5717,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5718,20,LOW,APPROVE,High Digital Device Risk
-C5719,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5720,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5721,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
-C5722,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5723,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5724,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5725,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5726,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5727,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
-C5728,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5729,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5730,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5731,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5732,60,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High Digital Device Risk"
-C5733,45,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
-C5734,15,LOW,APPROVE,Unverified Address
-C5735,0,LOW,APPROVE,None
-C5736,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5737,100,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5738,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5739,65,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
-C5740,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5741,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5742,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5743,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5744,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5745,95,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5746,15,LOW,APPROVE,Unverified Address
-C5747,0,LOW,APPROVE,None
-C5748,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5749,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5750,80,HIGH,REJECT/EDD,Prior Fraud History
-C5751,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5752,10,LOW,APPROVE,None
-C5753,65,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5754,80,HIGH,REJECT/EDD,Prior Fraud History
-C5755,80,HIGH,REJECT/EDD,Prior Fraud History
-C5756,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5757,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5758,90,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
-C5759,90,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
-C5760,25,LOW,APPROVE,High-Risk Geography
-C5761,15,LOW,APPROVE,Unverified Address
-C5762,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5763,60,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
-C5764,20,LOW,APPROVE,High Digital Device Risk
-C5765,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5766,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5767,0,LOW,APPROVE,None
-C5768,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5769,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5770,80,HIGH,REJECT/EDD,Prior Fraud History
-C5771,90,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
-C5772,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5773,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5774,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
-C5775,90,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
-C5776,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5777,0,LOW,APPROVE,None
-C5778,75,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5779,80,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5780,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
-C5781,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5782,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5783,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5784,80,HIGH,REJECT/EDD,Prior Fraud History
-C5785,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5786,80,HIGH,REJECT/EDD,Prior Fraud History
-C5787,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
-C5788,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5789,75,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
-C5790,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5791,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5792,15,LOW,APPROVE,Unverified Address
-C5793,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5794,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5795,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
-C5796,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5797,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5798,80,HIGH,REJECT/EDD,Prior Fraud History
-C5799,0,LOW,APPROVE,None
-C5800,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5801,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5802,70,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
-C5803,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5804,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5805,60,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
-C5806,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5807,0,LOW,APPROVE,None
-C5808,25,LOW,APPROVE,Unverified Address
-C5809,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5810,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5811,20,LOW,APPROVE,High Digital Device Risk
-C5812,80,HIGH,REJECT/EDD,Prior Fraud History
-C5813,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5814,70,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
-C5815,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5816,60,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
-C5817,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5818,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5819,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5820,80,HIGH,REJECT/EDD,Prior Fraud History
-C5821,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5822,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5823,80,HIGH,REJECT/EDD,Prior Fraud History
-C5824,0,LOW,APPROVE,None
-C5825,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5826,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5827,0,LOW,APPROVE,None
-C5828,40,MEDIUM,MANUAL_REVIEW,Adverse Media Found
-C5829,0,LOW,APPROVE,None
-C5830,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5831,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5832,65,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
-C5833,0,LOW,APPROVE,None
-C5834,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5835,80,HIGH,REJECT/EDD,Prior Fraud History
-C5836,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5837,80,HIGH,REJECT/EDD,Prior Fraud History
-C5838,80,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5839,80,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5840,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
-C5841,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5842,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5843,0,LOW,APPROVE,None
-C5844,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5845,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5846,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5847,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5848,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5849,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5850,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5851,25,LOW,APPROVE,High-Risk Geography
-C5852,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5853,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5854,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
-C5855,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5856,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
-C5857,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5858,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
-C5859,0,LOW,APPROVE,None
-C5860,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
-C5861,65,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High-Risk Geography"
-C5862,15,LOW,APPROVE,Unverified Address
-C5863,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5864,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
-C5865,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5866,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
-C5867,0,LOW,APPROVE,None
-C5868,0,LOW,APPROVE,None
-C5869,0,LOW,APPROVE,None
-C5870,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5871,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5872,80,HIGH,REJECT/EDD,Prior Fraud History
-C5873,15,LOW,APPROVE,Unverified Address
-C5874,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5875,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
-C5876,80,HIGH,REJECT/EDD,Prior Fraud History
-C5877,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5878,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5879,80,HIGH,REJECT/EDD,Prior Fraud History
-C5880,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5881,80,HIGH,REJECT/EDD,Prior Fraud History
-C5882,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5883,0,LOW,APPROVE,None
-C5884,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5885,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5886,0,LOW,APPROVE,None
-C5887,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
-C5888,90,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, Unverified Address"
-C5889,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5890,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5891,15,LOW,APPROVE,Unverified Address
-C5892,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5893,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5894,0,LOW,APPROVE,None
-C5895,80,HIGH,REJECT/EDD,Prior Fraud History
-C5896,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5897,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Missing/Invalid KYC Docs"
-C5898,20,LOW,APPROVE,High Digital Device Risk
-C5899,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5900,80,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
-C5901,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5902,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5903,0,LOW,APPROVE,None
-C5904,55,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
-C5905,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5906,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5907,75,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
-C5908,0,LOW,APPROVE,None
-C5909,100,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Adverse Media Found, Missing/Invalid KYC Docs"
-C5910,0,LOW,APPROVE,None
-C5911,90,HIGH,REJECT/EDD,Prior Fraud History
-C5912,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5913,75,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5914,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5915,60,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5916,0,LOW,APPROVE,None
-C5917,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5918,80,HIGH,REJECT/EDD,Prior Fraud History
-C5919,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
-C5920,40,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
-C5921,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5922,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5923,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5924,100,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High Digital Device Risk"
-C5925,50,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
-C5926,80,HIGH,REJECT/EDD,Prior Fraud History
-C5927,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5928,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5929,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5930,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5931,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
-C5932,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5933,95,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5934,55,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
-C5935,55,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
-C5936,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5937,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
-C5938,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5939,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5940,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5941,0,LOW,APPROVE,None
-C5942,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5943,20,LOW,APPROVE,High Digital Device Risk
-C5944,80,HIGH,REJECT/EDD,Prior Fraud History
-C5945,80,HIGH,REJECT/EDD,Prior Fraud History
-C5946,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5947,15,LOW,APPROVE,Unverified Address
-C5948,0,LOW,APPROVE,None
-C5949,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5950,35,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
-C5951,35,LOW,APPROVE,Missing/Invalid KYC Docs
-C5952,75,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
-C5953,0,LOW,APPROVE,None
-C5954,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5955,95,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5956,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
-C5957,0,LOW,APPROVE,None
-C5958,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5959,0,LOW,APPROVE,None
-C5960,0,LOW,APPROVE,None
-C5961,70,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
-C5962,25,LOW,APPROVE,High-Risk Geography
-C5963,15,LOW,APPROVE,Unverified Address
-C5964,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5965,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5966,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5967,95,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
-C5968,90,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
-C5969,0,LOW,APPROVE,None
-C5970,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5971,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5972,20,LOW,APPROVE,High Digital Device Risk
-C5973,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
-C5974,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5975,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5976,100,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
-C5977,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5978,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5979,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5980,80,HIGH,REJECT/EDD,Prior Fraud History
-C5981,25,LOW,APPROVE,High-Risk Geography
-C5982,100,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
-C5983,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5984,10,LOW,APPROVE,None
-C5985,75,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
-C5986,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5987,60,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
-C5988,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
-C5989,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5990,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
-C5991,0,LOW,APPROVE,None
-C5992,40,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
-C5993,100,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
-C5994,80,HIGH,REJECT/EDD,Prior Fraud History
-C5995,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5996,30,LOW,APPROVE,High Digital Device Risk
-C5997,100,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
-C5998,100,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
-C5999,15,LOW,APPROVE,Unverified Address
+customer_id,risk_score,rule_score,rf_score,risk_tier,decision,top_risk_factors
+C5000,99.6,100,99.07314647083112,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5001,1.1,0,2.719861477768358,LOW,APPROVE,None
+C5002,63.0,70,52.41631310579538,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5003,77.0,75,80.00997006776802,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
+C5004,10.4,15,3.6091341892034654,LOW,APPROVE,Unverified Address
+C5005,22.6,35,4.000079716373535,LOW,APPROVE,Missing/Invalid KYC Docs
+C5006,87.6,80,99.10996821699817,HIGH,REJECT/EDD,Prior Fraud History
+C5007,87.7,80,99.15723878916593,HIGH,REJECT/EDD,Prior Fraud History
+C5008,96.7,95,99.1401526751721,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5009,99.7,100,99.25077175047326,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5010,99.2,100,98.02640115921835,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High-Risk Geography"
+C5011,17.2,25,5.410765942634226,LOW,APPROVE,High-Risk Geography
+C5012,1.3,0,3.1910597625000356,LOW,APPROVE,None
+C5013,96.7,95,99.17118265836427,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5014,99.7,100,99.16615657529289,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5015,99.7,100,99.21650091923175,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5016,55.8,60,49.46608069668388,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5017,13.4,20,3.507261009385593,LOW,APPROVE,High Digital Device Risk
+C5018,1.0,0,2.579783552156884,LOW,APPROVE,None
+C5019,99.0,100,97.568295197494,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High-Risk Geography"
+C5020,100.0,100,95.88583617893225,HIGH,REJECT/EDD,"Sanctions List Match, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5021,96.7,95,99.15343517827517,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5022,21.5,25,16.160510371813622,LOW,APPROVE,High-Risk Geography
+C5023,99.7,100,99.2718837599366,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5024,22.5,35,3.765362087751512,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5025,87.7,80,99.14334647289047,HIGH,REJECT/EDD,Prior Fraud History
+C5026,16.7,25,4.253779717076075,LOW,APPROVE,High-Risk Geography
+C5027,1.1,0,2.6529545925794755,LOW,APPROVE,None
+C5028,87.6,80,99.10851608848908,HIGH,REJECT/EDD,Prior Fraud History
+C5029,99.7,100,99.1950764241561,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5030,1.1,0,2.6853416864642767,LOW,APPROVE,None
+C5031,87.6,80,99.06853183316066,HIGH,REJECT/EDD,Prior Fraud History
+C5032,58.2,60,55.446671588481344,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5033,99.7,100,99.19482048192837,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5034,100.0,100,99.31540323059372,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
+C5035,1.1,0,2.651521449791115,LOW,APPROVE,None
+C5036,23.6,35,6.5477889309937645,LOW,APPROVE,Missing/Invalid KYC Docs
+C5037,1.0,0,2.6240115682523153,LOW,APPROVE,None
+C5038,99.7,100,99.35631212398933,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5039,23.2,35,5.615820075010387,LOW,APPROVE,Missing/Invalid KYC Docs
+C5040,87.6,80,99.09909551290161,HIGH,REJECT/EDD,Prior Fraud History
+C5041,87.6,80,99.10234192182652,HIGH,REJECT/EDD,Prior Fraud History
+C5042,99.7,100,99.19388528221678,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5043,99.7,100,99.28838384795566,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5044,99.6,100,99.0653534211764,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
+C5045,100.0,100,87.13550700471694,HIGH,REJECT/EDD,Sanctions List Match
+C5046,49.8,50,49.62043587052705,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5047,16.5,25,3.6530379443015795,LOW,APPROVE,High-Risk Geography
+C5048,100.0,100,99.16369596469042,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Unverified Address"
+C5049,13.3,20,3.140517678040778,LOW,APPROVE,High Digital Device Risk
+C5050,1.3,0,3.2936944601993194,LOW,APPROVE,None
+C5051,75.7,75,76.82810180717053,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
+C5052,1.1,0,2.660799134269714,LOW,APPROVE,None
+C5053,99.7,100,99.27079786085076,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5054,99.7,100,99.32655246137224,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5055,16.3,25,3.329330860452507,LOW,APPROVE,High-Risk Geography
+C5056,99.7,100,99.2420654625603,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5057,99.7,100,99.23271753140425,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5058,87.7,80,99.12876547328028,HIGH,REJECT/EDD,Prior Fraud History
+C5059,99.7,100,99.16402927200743,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5060,99.7,100,99.23772158291624,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5061,99.7,100,99.27356461551085,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5062,34.3,35,33.259340158406175,LOW,APPROVE,Missing/Invalid KYC Docs
+C5063,44.8,40,51.98606528568013,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5064,22.7,35,4.2408790742005475,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5065,13.2,20,2.9861022917054214,LOW,APPROVE,High Digital Device Risk
+C5066,99.7,100,99.29090143968435,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5067,53.4,55,50.90906652513868,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5068,1.1,0,2.6820210511320917,LOW,APPROVE,None
+C5069,87.7,80,99.18381103726598,HIGH,REJECT/EDD,Prior Fraud History
+C5070,87.6,80,99.09847633981788,HIGH,REJECT/EDD,Prior Fraud History
+C5071,96.7,95,99.24025226561406,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5072,93.6,90,99.0238550236718,HIGH,REJECT/EDD,Prior Fraud History
+C5073,13.3,20,3.2122426567884386,LOW,APPROVE,High Digital Device Risk
+C5074,87.6,80,99.08063772357325,HIGH,REJECT/EDD,Prior Fraud History
+C5075,10.2,15,2.9181625542651326,LOW,APPROVE,Unverified Address
+C5076,23.4,35,5.996360131512219,LOW,APPROVE,Missing/Invalid KYC Docs
+C5077,46.5,40,56.220540687678316,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5078,75.6,75,76.48620385741218,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), High Digital Device Risk, Unverified Address"
+C5079,16.5,25,3.6646483034396713,LOW,APPROVE,High-Risk Geography
+C5080,99.6,100,99.08181698148823,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5081,99.7,100,99.2341844215834,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5082,87.6,80,99.04706692524789,HIGH,REJECT/EDD,Prior Fraud History
+C5083,16.4,25,3.488435244563682,LOW,APPROVE,High-Risk Geography
+C5084,10.5,15,3.635483644732279,LOW,APPROVE,Unverified Address
+C5085,53.9,55,52.34238980553539,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5086,99.7,100,99.21848380606896,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5087,22.5,35,3.7912153796898744,LOW,APPROVE,Missing/Invalid KYC Docs
+C5088,99.4,100,98.53561210905264,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High-Risk Geography"
+C5089,99.7,100,99.2167509965987,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5090,99.7,100,99.24315623357059,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5091,46.6,45,49.083069309790076,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
+C5092,96.5,95,98.64747290400857,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5093,45.0,40,52.46122804789718,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5094,40.6,40,41.598948003182706,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5095,23.1,35,5.23051882679689,LOW,APPROVE,Missing/Invalid KYC Docs
+C5096,99.7,100,99.26934102979709,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5097,99.7,100,99.32455833084326,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5098,99.7,100,99.25372798334612,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5099,87.7,80,99.22141116331456,HIGH,REJECT/EDD,Prior Fraud History
+C5100,89.7,95,81.85971845055211,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5101,99.7,100,99.17963180006737,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5102,87.6,80,99.1049525538968,HIGH,REJECT/EDD,Prior Fraud History
+C5103,99.7,100,99.18318574588153,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5104,57.1,60,52.83039291874857,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5105,99.7,100,99.19279923693816,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5106,1.1,0,2.6907330038646577,LOW,APPROVE,None
+C5107,99.6,100,99.02838228578672,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5108,87.7,80,99.20722812180253,HIGH,REJECT/EDD,Prior Fraud History
+C5109,87.6,80,99.1049501784992,HIGH,REJECT/EDD,Prior Fraud History
+C5110,16.5,25,3.760166205893011,LOW,APPROVE,High-Risk Geography
+C5111,53.6,55,51.37683863711653,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5112,13.2,20,3.0476172445621925,LOW,APPROVE,High Digital Device Risk
+C5113,96.7,95,99.16907194069735,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5114,99.7,100,99.25805587853205,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5115,99.6,100,99.09971361321321,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5116,16.3,25,3.2900075636329924,LOW,APPROVE,High-Risk Geography
+C5117,55.2,55,55.59656692596235,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
+C5118,42.1,40,45.3410028830586,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5119,77.3,80,73.13581839940944,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5120,16.4,25,3.482630772316731,LOW,APPROVE,High-Risk Geography
+C5121,10.4,15,3.527913146325206,LOW,APPROVE,Unverified Address
+C5122,99.7,100,99.2627002218731,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5123,13.2,20,3.0721443037055804,LOW,APPROVE,High Digital Device Risk
+C5124,16.2,25,3.014063990087664,LOW,APPROVE,High-Risk Geography
+C5125,99.7,100,99.20227482666579,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5126,99.6,100,99.11616812129854,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5127,99.6,100,99.11025241591923,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5128,10.2,15,3.0682445246776626,LOW,APPROVE,Unverified Address
+C5129,87.6,80,99.09460744340409,HIGH,REJECT/EDD,Prior Fraud History
+C5130,99.7,100,99.32141768535037,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5131,87.6,80,99.08361519728417,HIGH,REJECT/EDD,Prior Fraud History
+C5132,10.5,15,3.753927075960993,LOW,APPROVE,Unverified Address
+C5133,13.4,20,3.3878303955471756,LOW,APPROVE,High Digital Device Risk
+C5134,1.1,0,2.6326326177964505,LOW,APPROVE,None
+C5135,87.7,80,99.13479703381302,HIGH,REJECT/EDD,Prior Fraud History
+C5136,87.6,80,99.1202221532674,HIGH,REJECT/EDD,Prior Fraud History
+C5137,99.7,100,99.2331322474362,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5138,16.2,25,3.004716889187753,LOW,APPROVE,High-Risk Geography
+C5139,13.4,20,3.40284493033119,LOW,APPROVE,High Digital Device Risk
+C5140,99.7,100,99.17962623710825,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
+C5141,22.6,35,3.9056247757372535,LOW,APPROVE,Missing/Invalid KYC Docs
+C5142,99.7,100,99.2983995320793,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5143,16.6,25,4.073315219871773,LOW,APPROVE,High-Risk Geography
+C5144,100.0,100,99.22574517584809,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
+C5145,23.4,35,6.0725423250655455,LOW,APPROVE,Missing/Invalid KYC Docs
+C5146,1.1,0,2.7023570318712573,LOW,APPROVE,None
+C5147,87.7,80,99.1549286073756,HIGH,REJECT/EDD,Prior Fraud History
+C5148,99.7,100,99.22898466789624,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5149,61.2,65,55.41734811495323,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
+C5150,10.5,15,3.7478091593243663,LOW,APPROVE,Unverified Address
+C5151,99.7,100,99.17099161552109,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5152,1.2,0,2.887503129911996,LOW,APPROVE,None
+C5153,22.8,35,4.549604505241875,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5154,66.3,65,68.12584710587566,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
+C5155,45.5,40,53.67865656966576,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5156,99.7,100,99.22865216369712,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5157,23.6,35,6.417692105974879,LOW,APPROVE,Missing/Invalid KYC Docs
+C5158,99.7,100,99.23199192103826,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5159,16.5,25,3.789919879613257,LOW,APPROVE,High-Risk Geography
+C5160,1.2,0,3.015303591734634,LOW,APPROVE,None
+C5161,99.7,100,99.20346844197468,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5162,1.1,0,2.698070758922059,LOW,APPROVE,None
+C5163,99.7,100,99.12878153152327,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5164,13.3,20,3.209941566907322,LOW,APPROVE,High Digital Device Risk
+C5165,22.6,35,4.082961483398009,LOW,APPROVE,Missing/Invalid KYC Docs
+C5166,99.7,100,99.14465254335983,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5167,99.7,100,99.21820099667316,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5168,99.7,100,99.15596277677514,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5169,96.6,95,99.06345058057624,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5170,16.3,25,3.1933925369680596,LOW,APPROVE,High-Risk Geography
+C5171,22.5,35,3.704259227670841,LOW,APPROVE,Missing/Invalid KYC Docs
+C5172,99.7,100,99.23455394072282,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5173,52.9,55,49.712532892133034,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5174,23.3,35,5.8732667983326685,LOW,APPROVE,Missing/Invalid KYC Docs
+C5175,10.4,15,3.3936551859371313,LOW,APPROVE,Unverified Address
+C5176,87.6,80,99.1064788757228,HIGH,REJECT/EDD,Prior Fraud History
+C5177,20.0,30,5.053896850803331,LOW,APPROVE,High Digital Device Risk
+C5178,16.7,25,4.2249977883027245,LOW,APPROVE,Unverified Address
+C5179,99.7,100,99.16085376087486,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5180,99.7,100,99.27946136501365,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5181,16.3,25,3.320996763169236,LOW,APPROVE,High-Risk Geography
+C5182,1.1,0,2.662868464252596,LOW,APPROVE,None
+C5183,16.4,25,3.5018353099459447,LOW,APPROVE,High-Risk Geography
+C5184,99.7,100,99.1385377019395,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5185,99.7,100,99.2563791350605,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5186,87.7,80,99.1381220524304,HIGH,REJECT/EDD,Prior Fraud History
+C5187,99.6,100,98.98311853263154,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5188,99.7,100,99.29861745206101,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5189,1.0,0,2.6119230825021202,LOW,APPROVE,None
+C5190,87.6,80,99.09701854197293,HIGH,REJECT/EDD,Prior Fraud History
+C5191,58.4,60,55.97108229292718,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
+C5192,47.0,40,57.44996965266955,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5193,22.6,35,4.101551465307107,LOW,APPROVE,Missing/Invalid KYC Docs
+C5194,99.7,100,99.22983896937858,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5195,99.7,100,99.18060230611066,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5196,10.4,15,3.5621977076367175,LOW,APPROVE,Unverified Address
+C5197,22.5,35,3.859680972122022,LOW,APPROVE,Missing/Invalid KYC Docs
+C5198,1.2,0,3.073107505579685,LOW,APPROVE,None
+C5199,99.7,100,99.24153178774407,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5200,87.6,80,99.11696331445975,HIGH,REJECT/EDD,Prior Fraud History
+C5201,1.1,0,2.642589607281596,LOW,APPROVE,None
+C5202,10.5,15,3.660624333361053,LOW,APPROVE,Unverified Address
+C5203,100.0,100,99.29761778048353,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High-Risk Geography"
+C5204,99.7,100,99.12913351273744,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5205,84.5,75,98.71350887386582,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5206,96.7,95,99.18646164285462,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5207,99.7,100,99.34777149266198,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5208,99.6,100,99.04636160474678,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
+C5209,1.1,0,2.648663031810445,LOW,APPROVE,None
+C5210,99.7,100,99.26262250985249,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5211,100.0,100,81.5664631192364,HIGH,REJECT/EDD,Sanctions List Match
+C5212,53.5,55,51.29520909451176,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5213,1.2,0,3.0412106109550594,LOW,APPROVE,None
+C5214,99.7,100,99.15336221983138,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5215,16.3,25,3.2064449822951056,LOW,APPROVE,High-Risk Geography
+C5216,99.7,100,99.26228607029505,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5217,13.7,20,4.224756521604077,LOW,APPROVE,High Digital Device Risk
+C5218,56.5,60,51.368991745270606,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5219,99.6,100,99.1209773652518,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5220,23.3,35,5.866505836797792,LOW,APPROVE,Missing/Invalid KYC Docs
+C5221,100.0,100,99.28765127449286,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High-Risk Geography"
+C5222,99.7,100,99.14860837909958,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5223,23.1,35,5.227554734645194,LOW,APPROVE,Missing/Invalid KYC Docs
+C5224,16.3,25,3.280214130240718,LOW,APPROVE,High-Risk Geography
+C5225,40.6,40,41.55554897666566,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5226,87.7,80,99.14177185335049,HIGH,REJECT/EDD,Prior Fraud History
+C5227,7.9,10,4.701799510298707,LOW,APPROVE,None
+C5228,87.7,80,99.16071729347138,HIGH,REJECT/EDD,Prior Fraud History
+C5229,84.5,75,98.81923421477462,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5230,96.7,95,99.16827473655303,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5231,99.7,100,99.295217105449,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5232,1.1,0,2.7084385705630076,LOW,APPROVE,None
+C5233,96.7,95,99.14194391950683,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5234,99.7,100,99.26268388572151,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5235,99.7,100,99.3166275278575,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5236,1.1,0,2.719559039566603,LOW,APPROVE,None
+C5237,87.6,80,99.1241130780853,HIGH,REJECT/EDD,Prior Fraud History
+C5238,13.4,20,3.570757709028891,LOW,APPROVE,High Digital Device Risk
+C5239,1.3,0,3.286386953008145,LOW,APPROVE,None
+C5240,1.1,0,2.80502569265216,LOW,APPROVE,None
+C5241,99.7,100,99.24787525173865,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5242,46.3,45,48.366585510859764,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
+C5243,99.7,100,99.1615815068671,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5244,99.7,100,99.2508881615636,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5245,13.4,20,3.574408990536728,LOW,APPROVE,High Digital Device Risk
+C5246,87.6,80,99.07210523336303,HIGH,REJECT/EDD,Prior Fraud History
+C5247,99.7,100,99.23790941977781,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5248,87.7,80,99.21781187121077,HIGH,REJECT/EDD,Prior Fraud History
+C5249,96.7,95,99.17314624690852,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5250,1.2,0,3.054811363824009,LOW,APPROVE,None
+C5251,87.6,80,99.09493427429878,HIGH,REJECT/EDD,Prior Fraud History
+C5252,87.6,80,99.09540076359588,HIGH,REJECT/EDD,Prior Fraud History
+C5253,99.7,100,99.26247962942891,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5254,87.7,80,99.23048259467154,HIGH,REJECT/EDD,Prior Fraud History
+C5255,91.9,95,87.25963760418445,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5256,99.6,100,99.0874343105209,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5257,93.3,90,98.19640793643323,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, Unverified Address"
+C5258,87.7,80,99.17791017230729,HIGH,REJECT/EDD,Prior Fraud History
+C5259,45.8,40,54.40283937251273,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5260,47.0,50,42.49886392065131,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5261,43.8,40,49.38583694010727,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5262,99.7,100,99.18552349248034,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5263,1.5,0,3.6277534026828224,LOW,APPROVE,None
+C5264,99.6,100,99.10399197362835,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5265,99.7,100,99.2368677137046,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5266,99.7,100,99.2347337808819,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5267,99.6,100,99.0929688193848,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5268,96.7,95,99.2389327411892,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5269,49.8,50,49.48403110951021,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5270,13.2,20,2.9731838463286646,LOW,APPROVE,High Digital Device Risk
+C5271,1.1,0,2.74703841135786,LOW,APPROVE,None
+C5272,99.7,100,99.14527596400622,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5273,99.7,100,99.26911857304646,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5274,50.2,50,50.40267447870279,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5275,87.6,80,99.0775087298584,HIGH,REJECT/EDD,Prior Fraud History
+C5276,99.7,100,99.24761252056736,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5277,99.7,100,99.36646444519594,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5278,53.1,55,50.3729592225581,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5279,84.9,90,77.16774111486404,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5280,99.7,100,99.19428565460771,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5281,99.6,100,99.12487642075298,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5282,96.6,95,99.09190039791935,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5283,96.7,95,99.15427080460948,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5284,99.7,100,99.23018148804816,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5285,1.1,0,2.785735976072078,LOW,APPROVE,None
+C5286,99.7,100,99.1988240082132,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5287,99.7,100,99.15345968332261,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5288,87.7,80,99.14476729377847,HIGH,REJECT/EDD,Prior Fraud History
+C5289,13.4,20,3.4446787421197778,LOW,APPROVE,High Digital Device Risk
+C5290,99.5,100,98.8567372316641,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
+C5291,100.0,100,99.29710549822612,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High-Risk Geography"
+C5292,87.7,80,99.1401956430146,HIGH,REJECT/EDD,Prior Fraud History
+C5293,87.6,80,99.09823234998358,HIGH,REJECT/EDD,Prior Fraud History
+C5294,10.5,15,3.6296160042492205,LOW,APPROVE,Unverified Address
+C5295,100.0,100,71.03547373161418,HIGH,REJECT/EDD,"Sanctions List Match, Adverse Media Found"
+C5296,23.6,35,6.501313191584954,LOW,APPROVE,Missing/Invalid KYC Docs
+C5297,99.7,100,99.25284837228995,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5298,16.8,25,4.583679551921024,LOW,APPROVE,High-Risk Geography
+C5299,1.4,0,3.462237058409451,LOW,APPROVE,None
+C5300,1.2,0,2.944621569157384,LOW,APPROVE,None
+C5301,16.2,25,3.0293928682641,LOW,APPROVE,High-Risk Geography
+C5302,99.7,100,99.24445207636253,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5303,100.0,100,85.70800450017484,HIGH,REJECT/EDD,"Sanctions List Match, Politically Exposed Person (PEP), Adverse Media Found"
+C5304,53.3,55,50.79965134426059,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5305,13.7,20,4.241726132304673,LOW,APPROVE,High Digital Device Risk
+C5306,13.4,20,3.4290149079269656,LOW,APPROVE,High Digital Device Risk
+C5307,87.6,80,99.06781338793444,HIGH,REJECT/EDD,Prior Fraud History
+C5308,87.6,80,99.11916191978678,HIGH,REJECT/EDD,Prior Fraud History
+C5309,10.2,15,2.990506053390584,LOW,APPROVE,Unverified Address
+C5310,99.7,100,99.16228907851573,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5311,44.7,40,51.678874185110395,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5312,50.3,50,50.77237803408246,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5313,1.1,0,2.669106255895174,LOW,APPROVE,None
+C5314,96.7,95,99.13996568603626,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5315,87.7,80,99.21122950437807,HIGH,REJECT/EDD,Prior Fraud History
+C5316,1.3,0,3.281002059392401,LOW,APPROVE,None
+C5317,99.7,100,99.21245028273569,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5318,87.6,80,99.09684473225813,HIGH,REJECT/EDD,Prior Fraud History
+C5319,1.2,0,2.984488995355689,LOW,APPROVE,None
+C5320,10.2,15,3.0977717386921,LOW,APPROVE,Unverified Address
+C5321,99.7,100,99.19938699268431,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5322,99.6,100,98.9974466569454,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5323,93.6,90,99.09851804383548,HIGH,REJECT/EDD,Prior Fraud History
+C5324,87.6,80,99.09879459648064,HIGH,REJECT/EDD,Prior Fraud History
+C5325,99.7,100,99.16692995785839,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5326,99.7,100,99.18735526363177,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5327,99.7,100,99.22668189595228,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5328,16.9,25,4.83434771619929,LOW,APPROVE,High-Risk Geography
+C5329,99.7,100,99.33717156383717,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5330,99.7,100,99.22935238357235,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5331,99.7,100,99.16586711124633,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5332,56.2,60,50.48914807647375,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
+C5333,98.5,100,96.34874562630074,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High Digital Device Risk"
+C5334,99.7,100,99.24529660393588,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5335,1.1,0,2.8542712831639703,LOW,APPROVE,None
+C5336,53.1,55,50.259611118226914,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5337,86.5,90,81.1769254061551,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
+C5338,87.6,80,99.12319039463426,HIGH,REJECT/EDD,Prior Fraud History
+C5339,16.5,25,3.736591337403617,LOW,APPROVE,High-Risk Geography
+C5340,78.2,85,68.01882812940383,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, High Digital Device Risk"
+C5341,99.6,100,98.94154681231873,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5342,1.1,0,2.7197001247835755,LOW,APPROVE,None
+C5343,99.7,100,99.14593659003735,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5344,93.6,90,98.99417881666103,HIGH,REJECT/EDD,Prior Fraud History
+C5345,28.8,35,19.471245537981932,LOW,APPROVE,Missing/Invalid KYC Docs
+C5346,1.1,0,2.759201758091117,LOW,APPROVE,None
+C5347,50.3,50,50.69415221995283,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5348,1.3,0,3.1648202513725097,LOW,APPROVE,None
+C5349,87.7,80,99.13592724793547,HIGH,REJECT/EDD,Prior Fraud History
+C5350,48.5,50,46.22975299675109,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5351,99.7,100,99.21178343838913,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5352,99.7,100,99.1862727552936,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5353,87.6,80,99.08917788923264,HIGH,REJECT/EDD,Prior Fraud History
+C5354,1.1,0,2.656735099543342,LOW,APPROVE,None
+C5355,99.7,100,99.27417636643604,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5356,99.7,100,99.2284452531398,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5357,16.3,25,3.1987311306003265,LOW,APPROVE,High-Risk Geography
+C5358,96.7,95,99.1595518778308,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5359,22.6,35,4.116919189165235,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5360,99.7,100,99.2491944835348,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5361,24.1,35,7.676223540475728,LOW,APPROVE,Missing/Invalid KYC Docs
+C5362,84.2,75,97.96976954467648,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5363,1.3,0,3.31320226366427,LOW,APPROVE,None
+C5364,13.3,20,3.3056478402183087,LOW,APPROVE,High Digital Device Risk
+C5365,99.7,100,99.19201603067367,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5366,99.7,100,99.29924097723591,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5367,16.3,25,3.318437019689291,LOW,APPROVE,High-Risk Geography
+C5368,99.7,100,99.22311466824625,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5369,1.5,0,3.712140143325949,LOW,APPROVE,None
+C5370,98.9,100,97.2736890363659,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High-Risk Geography"
+C5371,99.7,100,99.16950212030795,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5372,56.4,60,51.02610629106444,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5373,99.7,100,99.17065525377303,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5374,99.7,100,99.2256842708249,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5375,99.7,100,99.25045728616746,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5376,99.7,100,99.24086071044745,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
+C5377,99.7,100,99.30359618616612,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5378,99.7,100,99.21566942702528,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5379,1.1,0,2.710746504655914,LOW,APPROVE,None
+C5380,99.7,100,99.18887763349564,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5381,62.4,70,51.07873455793237,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
+C5382,99.7,100,99.24725796767288,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5383,99.7,100,99.33760887145952,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5384,85.3,100,63.30021487247798,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, High Digital Device Risk"
+C5385,99.7,100,99.19303734299203,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5386,99.7,100,99.23920198873003,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5387,1.1,0,2.7451415376185926,LOW,APPROVE,None
+C5388,87.7,80,99.20979131874951,HIGH,REJECT/EDD,Prior Fraud History
+C5389,100.0,100,73.75294092895777,HIGH,REJECT/EDD,"Sanctions List Match, High Digital Device Risk"
+C5390,87.7,80,99.16561528691427,HIGH,REJECT/EDD,Prior Fraud History
+C5391,96.7,95,99.23831015457417,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5392,99.7,100,99.2172717552784,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5393,99.7,100,99.23936370836809,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5394,99.7,100,99.16238495237457,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5395,10.5,15,3.7012093453363777,LOW,APPROVE,Unverified Address
+C5396,99.6,100,99.09480640396248,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
+C5397,10.3,15,3.341356470358253,LOW,APPROVE,Unverified Address
+C5398,99.7,100,99.1439870279023,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5399,99.7,100,99.20810213909508,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5400,99.7,100,99.158183364692,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5401,99.7,100,99.2405651534865,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5402,99.7,100,99.19971421932047,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5403,57.8,60,54.569532048238905,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
+C5404,87.6,80,99.12390623291449,HIGH,REJECT/EDD,Prior Fraud History
+C5405,1.1,0,2.7482026116182015,LOW,APPROVE,None
+C5406,96.7,95,99.19439551523477,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5407,23.0,35,4.964065041575989,LOW,APPROVE,Missing/Invalid KYC Docs
+C5408,99.7,100,99.20657832262945,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5409,99.7,100,99.26533187539947,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5410,23.4,35,5.9452114374757805,LOW,APPROVE,Missing/Invalid KYC Docs
+C5411,99.7,100,99.22174484397286,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5412,99.7,100,99.21653439467242,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5413,99.6,100,99.06044555733739,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5414,100.0,100,99.23261221213656,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Politically Exposed Person (PEP)"
+C5415,99.6,100,99.08823883234555,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5416,87.6,80,99.0841935973551,HIGH,REJECT/EDD,Prior Fraud History
+C5417,45.5,40,53.70009318931354,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5418,96.7,95,99.23406312308163,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5419,84.2,75,97.96387335111956,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5420,99.6,100,98.99204001404372,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5421,99.5,100,98.85175209289457,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5422,1.7,0,4.280030944324911,LOW,APPROVE,None
+C5423,13.3,20,3.1913740395596504,LOW,APPROVE,High Digital Device Risk
+C5424,99.7,100,99.28265349908257,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5425,99.7,100,99.23213530512889,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5426,99.7,100,99.19111131639438,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5427,99.7,100,99.17171199348904,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5428,99.7,100,99.2921827926486,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5429,99.7,100,99.14109268242542,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5430,99.5,100,98.68706160170954,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High-Risk Geography"
+C5431,23.6,35,6.402545694758462,LOW,APPROVE,Missing/Invalid KYC Docs
+C5432,99.7,100,99.14854121317254,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5433,99.7,100,99.19305545744257,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5434,99.7,100,99.1371293907708,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5435,62.6,70,51.484132289527224,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
+C5436,23.3,35,5.846316953897894,LOW,APPROVE,Missing/Invalid KYC Docs
+C5437,99.7,100,99.23146419258849,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5438,87.7,80,99.15484827497049,HIGH,REJECT/EDD,Prior Fraud History
+C5439,99.7,100,99.31873932872797,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5440,13.8,20,4.378528056290196,LOW,APPROVE,High Digital Device Risk
+C5441,99.6,100,99.077041538226,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5442,87.6,80,99.09205959193115,HIGH,REJECT/EDD,Prior Fraud History
+C5443,99.6,100,99.08355417226382,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5444,1.3,0,3.292074883731525,LOW,APPROVE,None
+C5445,99.1,100,97.85711502079648,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High Digital Device Risk"
+C5446,1.1,0,2.724824799806732,LOW,APPROVE,None
+C5447,99.7,100,99.21703581878936,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5448,87.6,80,99.10487923417787,HIGH,REJECT/EDD,Prior Fraud History
+C5449,87.6,80,99.08697007059847,HIGH,REJECT/EDD,Prior Fraud History
+C5450,42.1,45,37.62529107326035,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
+C5451,45.5,40,53.806937949249445,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5452,99.7,100,99.34347790095339,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5453,10.2,15,3.0195827088123695,LOW,APPROVE,Unverified Address
+C5454,79.8,85,72.08302273026999,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), High-Risk Geography, High Digital Device Risk"
+C5455,1.1,0,2.644288124386368,LOW,APPROVE,None
+C5456,1.2,0,2.93657897467727,LOW,APPROVE,None
+C5457,53.3,55,50.63181861090852,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5458,56.3,60,50.73611170611274,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
+C5459,87.6,80,99.11025874211936,HIGH,REJECT/EDD,Prior Fraud History
+C5460,1.1,0,2.67604137496403,LOW,APPROVE,None
+C5461,96.7,95,99.13794969557148,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5462,1.2,0,2.9745378760706553,LOW,APPROVE,None
+C5463,99.7,100,99.36132814305797,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Adverse Media Found"
+C5464,96.7,95,99.17529645620051,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5465,44.4,50,35.9313125704113,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5466,1.1,0,2.6290524656237104,LOW,APPROVE,None
+C5467,61.5,65,56.29142684767805,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High-Risk Geography"
+C5468,87.6,80,99.10121977073955,HIGH,REJECT/EDD,Prior Fraud History
+C5469,96.7,95,99.14783874316375,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5470,99.7,100,99.25450661544527,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5471,54.4,55,53.55901634097057,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
+C5472,1.3,0,3.1666334756512757,LOW,APPROVE,None
+C5473,87.6,80,99.05270299520164,HIGH,REJECT/EDD,Prior Fraud History
+C5474,1.1,0,2.8040249066504943,LOW,APPROVE,None
+C5475,23.1,35,5.263226026901027,LOW,APPROVE,Missing/Invalid KYC Docs
+C5476,99.7,100,99.12624349363183,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5477,99.7,100,99.17160556337744,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
+C5478,36.9,40,32.16056274314415,LOW,APPROVE,"High-Risk Geography, Unverified Address"
+C5479,1.1,0,2.6961635898916505,LOW,APPROVE,None
+C5480,99.7,100,99.20856090364695,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5481,96.6,95,99.11205379962993,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5482,99.7,100,99.15570456363837,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5483,10.3,15,3.154861558293769,LOW,APPROVE,Unverified Address
+C5484,10.6,15,3.9223359954426846,LOW,APPROVE,Unverified Address
+C5485,1.1,0,2.863796059875466,LOW,APPROVE,None
+C5486,100.0,100,74.87907601147108,HIGH,REJECT/EDD,"Sanctions List Match, High Digital Device Risk"
+C5487,23.6,35,6.557189339325294,LOW,APPROVE,Missing/Invalid KYC Docs
+C5488,99.7,100,99.2368677137046,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5489,13.3,20,3.3008169647695924,LOW,APPROVE,High Digital Device Risk
+C5490,99.6,100,99.07885640620214,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5491,99.7,100,99.23036118732087,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5492,84.5,75,98.74071031728654,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5493,99.7,100,99.32823620963777,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5494,10.4,15,3.624480160228377,LOW,APPROVE,Unverified Address
+C5495,87.6,80,99.07255803673009,HIGH,REJECT/EDD,Prior Fraud History
+C5496,99.7,100,99.28341336618423,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5497,55.8,60,49.38030336236516,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5498,47.2,45,50.44067700170368,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
+C5499,100.0,100,97.55343938056448,HIGH,REJECT/EDD,"Sanctions List Match, Missing/Invalid KYC Docs"
+C5500,13.9,20,4.763936769381892,LOW,APPROVE,High Digital Device Risk
+C5501,13.3,20,3.1545626896914283,LOW,APPROVE,High Digital Device Risk
+C5502,44.2,40,50.574422177669945,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5503,99.7,100,99.15582340828345,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5504,1.3,0,3.2796686137878024,LOW,APPROVE,None
+C5505,22.7,35,4.297470764464697,LOW,APPROVE,Missing/Invalid KYC Docs
+C5506,80.5,80,81.3151782672781,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
+C5507,13.2,20,3.03380085245359,LOW,APPROVE,High Digital Device Risk
+C5508,99.7,100,99.214912942575,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5509,13.4,20,3.3803286603095613,LOW,APPROVE,High Digital Device Risk
+C5510,13.4,20,3.4448477097511923,LOW,APPROVE,High Digital Device Risk
+C5511,99.7,100,99.25879959014782,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5512,99.7,100,99.23455898581996,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5513,87.6,80,99.09664471689494,HIGH,REJECT/EDD,Prior Fraud History
+C5514,1.2,0,2.8908119115647457,LOW,APPROVE,None
+C5515,87.7,80,99.14552785155063,HIGH,REJECT/EDD,Prior Fraud History
+C5516,10.2,15,3.0146258887358264,LOW,APPROVE,Unverified Address
+C5517,99.7,100,99.20198776906068,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5518,13.3,20,3.311138311653714,LOW,APPROVE,High Digital Device Risk
+C5519,99.7,100,99.25395815140581,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5520,23.0,35,4.964065041575989,LOW,APPROVE,Missing/Invalid KYC Docs
+C5521,87.7,80,99.19629449559466,HIGH,REJECT/EDD,Prior Fraud History
+C5522,22.5,35,3.8551574126123214,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5523,87.7,80,99.19893531034472,HIGH,REJECT/EDD,Prior Fraud History
+C5524,22.0,25,17.55563076489412,LOW,APPROVE,High-Risk Geography
+C5525,1.1,0,2.702067282252983,LOW,APPROVE,None
+C5526,99.7,100,99.30753222070713,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5527,62.5,70,51.2860551397927,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
+C5528,91.1,100,77.68032178753268,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Adverse Media Found, High Digital Device Risk"
+C5529,1.2,0,3.1130539375122064,LOW,APPROVE,None
+C5530,87.6,80,99.09896655398424,HIGH,REJECT/EDD,Prior Fraud History
+C5531,99.6,100,99.11980744083321,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
+C5532,84.0,75,97.43032459008343,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5533,1.8,0,4.382172692852609,LOW,APPROVE,None
+C5534,87.7,80,99.19679747010737,HIGH,REJECT/EDD,Prior Fraud History
+C5535,99.7,100,99.18106204266181,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5536,99.7,100,99.16679612008787,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
+C5537,53.3,55,50.77674232151757,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5538,99.6,100,99.08906078095235,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5539,99.6,100,99.09118543003541,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5540,87.6,80,99.0698220360005,HIGH,REJECT/EDD,Prior Fraud History
+C5541,96.2,95,97.92846860185453,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, High Digital Device Risk"
+C5542,45.1,40,52.62528643183006,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5543,96.7,95,99.16313387173544,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5544,99.7,100,99.22405591348796,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5545,99.6,100,99.0844703799382,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5546,99.7,100,99.22415706109645,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5547,93.6,90,99.12344035801416,HIGH,REJECT/EDD,Prior Fraud History
+C5548,89.8,90,89.51185675955837,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
+C5549,16.3,25,3.161631741311634,LOW,APPROVE,High-Risk Geography
+C5550,1.1,0,2.6626710489516356,LOW,APPROVE,None
+C5551,13.3,20,3.252674646035973,LOW,APPROVE,High Digital Device Risk
+C5552,99.7,100,99.20797823822394,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5553,7.4,10,3.548693054051874,LOW,APPROVE,None
+C5554,13.3,20,3.302146280305736,LOW,APPROVE,High Digital Device Risk
+C5555,99.7,100,99.36161817121751,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5556,43.3,45,40.72054220482033,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
+C5557,45.3,40,53.17123147317459,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5558,99.7,100,99.25732914110331,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5559,1.1,0,2.7163797784806545,LOW,APPROVE,None
+C5560,13.2,20,3.036310363242765,LOW,APPROVE,High Digital Device Risk
+C5561,99.7,100,99.34126926047053,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5562,54.7,55,54.304329259494324,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), Unverified Address"
+C5563,99.7,100,99.23499223216285,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5564,87.6,80,99.08415713430108,HIGH,REJECT/EDD,Prior Fraud History
+C5565,96.7,95,99.14652147361909,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5566,99.7,100,99.23073784203399,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5567,16.5,25,3.7365105314641855,LOW,APPROVE,High-Risk Geography
+C5568,1.4,0,3.4348379774484794,LOW,APPROVE,None
+C5569,99.7,100,99.21451457688929,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5570,87.6,80,99.11468151514757,HIGH,REJECT/EDD,Prior Fraud History
+C5571,99.6,100,99.01553034676259,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
+C5572,99.7,100,99.18433431494081,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5573,96.7,95,99.16634608578475,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5574,99.7,100,99.1519779696304,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High-Risk Geography"
+C5575,99.7,100,99.26161504716174,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5576,46.4,45,48.51177316395099,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
+C5577,87.6,80,99.11924210176447,HIGH,REJECT/EDD,Prior Fraud History
+C5578,13.3,20,3.169958386642044,LOW,APPROVE,High Digital Device Risk
+C5579,80.2,80,80.55155578180168,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5580,56.3,60,50.72662613492771,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
+C5581,99.7,100,99.17541405829954,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5582,1.2,0,3.083117860498368,LOW,APPROVE,None
+C5583,87.6,80,99.12406106294338,HIGH,REJECT/EDD,Prior Fraud History
+C5584,23.1,35,5.270342031377897,LOW,APPROVE,Missing/Invalid KYC Docs
+C5585,99.7,100,99.1763087363317,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5586,99.7,100,99.20211252198845,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5587,99.7,100,99.14847780306101,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5588,84.6,75,98.8863244525029,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5589,87.7,80,99.15993620427342,HIGH,REJECT/EDD,Prior Fraud History
+C5590,99.7,100,99.1910254485642,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5591,46.4,40,56.00132993650386,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5592,99.7,100,99.20512704461599,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5593,99.7,100,99.22216073007074,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5594,99.6,100,99.12424246942493,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5595,99.7,100,99.26510030451092,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5596,99.7,100,99.25227797674852,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5597,13.3,20,3.219208466227729,LOW,APPROVE,High Digital Device Risk
+C5598,99.7,100,99.2619393673676,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5599,46.2,45,47.87819955472411,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
+C5600,23.3,35,5.790547000602084,LOW,APPROVE,Missing/Invalid KYC Docs
+C5601,99.7,100,99.21300688789596,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5602,13.3,20,3.2255217719378253,LOW,APPROVE,High Digital Device Risk
+C5603,58.8,60,56.882478267166235,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5604,1.1,0,2.702755782820269,LOW,APPROVE,None
+C5605,99.7,100,99.2105386802203,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5606,24.8,35,9.524571166389787,LOW,APPROVE,Missing/Invalid KYC Docs
+C5607,96.6,95,99.11163972181139,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5608,61.1,65,55.25482260238708,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High-Risk Geography"
+C5609,1.1,0,2.7031534454519557,LOW,APPROVE,None
+C5610,99.7,100,99.25705865729982,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5611,99.7,100,99.23451619486615,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5612,23.2,35,5.513235608837921,LOW,APPROVE,Missing/Invalid KYC Docs
+C5613,1.1,0,2.723546078653266,LOW,APPROVE,None
+C5614,16.3,25,3.363084394259765,LOW,APPROVE,High-Risk Geography
+C5615,48.6,50,46.52484531957808,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5616,99.4,100,98.53840613536646,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High-Risk Geography"
+C5617,99.7,100,99.2419576709064,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5618,23.0,35,4.959306004296437,LOW,APPROVE,Missing/Invalid KYC Docs
+C5619,100.0,100,81.4473793714324,HIGH,REJECT/EDD,Sanctions List Match
+C5620,99.7,100,99.29671972297201,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5621,16.7,25,4.206050660319201,LOW,APPROVE,High-Risk Geography
+C5622,99.7,100,99.22396561399123,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5623,23.2,35,5.437699617842086,LOW,APPROVE,Missing/Invalid KYC Docs
+C5624,99.7,100,99.19687617164053,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5625,99.7,100,99.24509181407231,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5626,22.6,35,4.077674693730864,LOW,APPROVE,Missing/Invalid KYC Docs
+C5627,99.7,100,99.24039550960106,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5628,44.6,40,51.5300690378526,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5629,53.3,55,50.77760102168398,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5630,96.7,95,99.16686191996939,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5631,99.7,100,99.12718208467778,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5632,53.0,55,50.0643712961065,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5633,99.7,100,99.17618784631676,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5634,99.7,100,99.33927252109278,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5635,46.0,40,55.119434618864695,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5636,99.7,100,99.21830593220004,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5637,46.0,45,47.583108073100696,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
+C5638,87.7,80,99.20868297917384,HIGH,REJECT/EDD,Prior Fraud History
+C5639,10.8,15,4.478798975732278,LOW,APPROVE,Unverified Address
+C5640,61.5,65,56.172046781577365,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
+C5641,10.3,15,3.262662256747097,LOW,APPROVE,Unverified Address
+C5642,1.1,0,2.7220056147095075,LOW,APPROVE,None
+C5643,1.2,0,3.0999189226965775,LOW,APPROVE,None
+C5644,100.0,100,99.2826467813409,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
+C5645,1.1,0,2.6918059629498514,LOW,APPROVE,None
+C5646,10.3,15,3.2643909424290074,LOW,APPROVE,Unverified Address
+C5647,87.7,80,99.13570671170504,HIGH,REJECT/EDD,Prior Fraud History
+C5648,99.6,100,99.10113056521058,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5649,62.6,70,51.525512751145705,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
+C5650,1.1,0,2.7031578527980744,LOW,APPROVE,None
+C5651,1.1,0,2.7032272670938746,LOW,APPROVE,None
+C5652,1.1,0,2.62980447137169,LOW,APPROVE,None
+C5653,96.7,95,99.13292931330172,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5654,43.3,45,40.845917640922224,MEDIUM,MANUAL_REVIEW,Missing/Invalid KYC Docs
+C5655,62.5,70,51.18637667524905,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
+C5656,23.2,35,5.551463651932426,LOW,APPROVE,Missing/Invalid KYC Docs
+C5657,99.7,100,99.27486881781543,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5658,99.7,100,99.29414637285895,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5659,99.7,100,99.22689753559725,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Unverified Address"
+C5660,100.0,100,99.33363398919619,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Missing/Invalid KYC Docs"
+C5661,56.4,60,50.99202640125379,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5662,99.7,100,99.25438264768754,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5663,24.0,35,7.386418550888022,LOW,APPROVE,Missing/Invalid KYC Docs
+C5664,84.5,75,98.7319069054596,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5665,99.7,100,99.27295032128136,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5666,16.3,25,3.128495841054008,LOW,APPROVE,High-Risk Geography
+C5667,99.7,100,99.24024839627779,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5668,99.7,100,99.214912942575,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5669,1.1,0,2.668097689577302,LOW,APPROVE,None
+C5670,99.7,100,99.23473842844878,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5671,99.6,100,99.06855628884254,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5672,99.7,100,99.21185839923264,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5673,84.5,75,98.80680888750037,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5674,87.6,80,99.11212764767772,HIGH,REJECT/EDD,Prior Fraud History
+C5675,99.7,100,99.27260276012528,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5676,99.7,100,99.20971077440669,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5677,63.1,70,52.62712788207172,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High Digital Device Risk"
+C5678,87.7,80,99.17502956165124,HIGH,REJECT/EDD,Prior Fraud History
+C5679,99.6,100,99.12458677170876,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5680,99.7,100,99.23957291048863,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5681,16.2,25,3.0411938299895325,LOW,APPROVE,High-Risk Geography
+C5682,99.6,100,99.08938487849798,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5683,1.2,0,3.0227648304234704,LOW,APPROVE,None
+C5684,100.0,100,65.82455668918698,HIGH,REJECT/EDD,Sanctions List Match
+C5685,87.7,80,99.19858314524932,HIGH,REJECT/EDD,Prior Fraud History
+C5686,54.7,55,54.20443046381379,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
+C5687,1.1,0,2.8101955709767217,LOW,APPROVE,None
+C5688,87.7,80,99.14545113823219,HIGH,REJECT/EDD,Prior Fraud History
+C5689,99.7,100,99.26475006677492,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5690,96.6,95,99.11631417554518,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5691,99.7,100,99.32550318666266,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5692,13.2,20,2.968931604897495,LOW,APPROVE,High Digital Device Risk
+C5693,99.7,100,99.16372803777931,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5694,1.3,0,3.2318025963934094,LOW,APPROVE,None
+C5695,79.9,80,79.72265367957408,HIGH,REJECT/EDD,"Adverse Media Found, High-Risk Geography, Unverified Address"
+C5696,1.1,0,2.771131149062992,LOW,APPROVE,None
+C5697,1.1,0,2.761288413422777,LOW,APPROVE,None
+C5698,99.7,100,99.21679536971301,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5699,1.1,0,2.6857362674456398,LOW,APPROVE,None
+C5700,99.7,100,99.20166495486242,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5701,1.2,0,2.9614551986468305,LOW,APPROVE,None
+C5702,99.7,100,99.16608865430081,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5703,99.6,100,99.10563732799419,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5704,84.3,75,98.34834265625203,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5705,13.3,20,3.1567828429296774,LOW,APPROVE,High Digital Device Risk
+C5706,56.3,60,50.868704303747755,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5707,1.1,0,2.6962871961657466,LOW,APPROVE,None
+C5708,99.7,100,99.27830070892338,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5709,16.3,25,3.351075434017691,LOW,APPROVE,High-Risk Geography
+C5710,45.8,40,54.60891000563039,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5711,23.1,35,5.2652050981768745,LOW,APPROVE,Missing/Invalid KYC Docs
+C5712,100.0,100,99.29644684181329,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Missing/Invalid KYC Docs"
+C5713,99.6,100,99.04789916726197,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5714,99.6,100,99.03054363844288,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
+C5715,99.7,100,99.31189875636072,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5716,99.7,100,99.26381797721277,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5717,46.0,40,55.03030251193975,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5718,13.3,20,3.1813587050169105,LOW,APPROVE,High Digital Device Risk
+C5719,50.1,50,50.26610536958119,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5720,99.7,100,99.1328354280026,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5721,99.6,100,98.953023759548,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
+C5722,22.6,35,4.075878018816172,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5723,99.7,100,99.26181278245654,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5724,22.5,35,3.807102205468997,LOW,APPROVE,Missing/Invalid KYC Docs
+C5725,84.5,75,98.81306736177969,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5726,99.7,100,99.14124299399684,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5727,99.7,100,99.17694602953323,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
+C5728,99.7,100,99.26132836835299,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5729,99.7,100,99.26842074479454,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5730,99.7,100,99.16196397257245,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5731,53.4,55,50.89301122889661,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5732,58.8,60,56.994694129910755,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High Digital Device Risk"
+C5733,46.1,45,47.69531330283556,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk"
+C5734,10.5,15,3.854206832937882,LOW,APPROVE,Unverified Address
+C5735,1.2,0,3.0215095066412836,LOW,APPROVE,None
+C5736,96.7,95,99.16754905751564,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5737,99.6,100,99.00677116046354,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5738,99.6,100,99.06489875180596,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5739,61.7,65,56.65928878797492,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
+C5740,99.7,100,99.21223860457759,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5741,99.7,100,99.22495812814043,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5742,99.7,100,99.29497336233595,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5743,99.7,100,99.26895433556656,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5744,99.7,100,99.2557177168981,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5745,96.4,95,98.5948942961639,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5746,10.3,15,3.169103705092149,LOW,APPROVE,Unverified Address
+C5747,1.1,0,2.7424982062822236,LOW,APPROVE,None
+C5748,99.6,100,98.94765387966534,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5749,99.7,100,99.20856620969458,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5750,87.6,80,99.04412356933064,HIGH,REJECT/EDD,Prior Fraud History
+C5751,99.7,100,99.22516407331449,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5752,7.4,10,3.6097286057246025,LOW,APPROVE,None
+C5753,59.6,65,51.413774782527014,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5754,87.7,80,99.1468137533483,HIGH,REJECT/EDD,Prior Fraud History
+C5755,87.6,80,99.0709989990428,HIGH,REJECT/EDD,Prior Fraud History
+C5756,99.7,100,99.29011798912103,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5757,99.7,100,99.25508555808774,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5758,93.2,90,98.07024415374829,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
+C5759,93.1,90,97.67995746755018,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
+C5760,16.3,25,3.230036512396873,LOW,APPROVE,High-Risk Geography
+C5761,10.8,15,4.383899713281468,LOW,APPROVE,Unverified Address
+C5762,99.7,100,99.33757835091586,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5763,57.1,60,52.64517684982823,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
+C5764,13.2,20,3.1103508400383815,LOW,APPROVE,High Digital Device Risk
+C5765,23.3,35,5.818295815115771,LOW,APPROVE,Missing/Invalid KYC Docs
+C5766,99.7,100,99.13989630998897,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5767,1.1,0,2.748894665008692,LOW,APPROVE,None
+C5768,99.7,100,99.33529043055697,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5769,99.6,100,99.07483304530656,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5770,87.7,80,99.13579305845035,HIGH,REJECT/EDD,Prior Fraud History
+C5771,93.1,90,97.64731303104311,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
+C5772,99.7,100,99.24086063446727,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5773,49.2,50,48.086365104796066,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5774,99.7,100,99.1826586712668,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
+C5775,93.3,90,98.27069980330877,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
+C5776,99.7,100,99.21393108743659,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5777,1.1,0,2.6261204147131942,LOW,APPROVE,None
+C5778,84.4,75,98.37616551655276,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5779,80.1,80,80.26038498383969,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5780,62.9,70,52.185993270910636,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk, Unverified Address"
+C5781,99.7,100,99.22745577332466,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5782,99.7,100,99.28886616942566,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5783,99.7,100,99.21509910651788,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5784,87.7,80,99.1687725087381,HIGH,REJECT/EDD,Prior Fraud History
+C5785,99.7,100,99.23119123861757,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5786,87.7,80,99.2234510495111,HIGH,REJECT/EDD,Prior Fraud History
+C5787,99.6,100,99.11715975462306,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
+C5788,23.1,35,5.257177878546308,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5789,78.2,75,82.98193388169916,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
+C5790,99.7,100,99.22693580659134,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5791,99.7,100,99.18666903592379,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5792,10.2,15,2.8842111361119254,LOW,APPROVE,Unverified Address
+C5793,99.7,100,99.18734304889978,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5794,22.7,35,4.242639905321437,LOW,APPROVE,Missing/Invalid KYC Docs
+C5795,99.7,100,99.28478906507793,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High-Risk Geography"
+C5796,99.7,100,99.2692116735068,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5797,99.7,100,99.17881839108348,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5798,87.7,80,99.20936497402586,HIGH,REJECT/EDD,Prior Fraud History
+C5799,1.1,0,2.643493046127273,LOW,APPROVE,None
+C5800,99.6,100,99.04961051868476,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5801,99.6,100,99.05370252304672,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5802,64.1,70,55.186112063309814,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
+C5803,47.7,50,44.22128941589984,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5804,56.5,60,51.30927217883506,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5805,56.3,60,50.75008565351053,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
+C5806,99.6,100,99.09205052049018,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5807,1.1,0,2.6794990413410056,LOW,APPROVE,None
+C5808,16.6,25,4.062660573951246,LOW,APPROVE,Unverified Address
+C5809,99.7,100,99.18760147765485,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5810,23.5,35,6.256325831287802,LOW,APPROVE,Missing/Invalid KYC Docs
+C5811,13.2,20,3.1153020177539092,LOW,APPROVE,High Digital Device Risk
+C5812,87.7,80,99.23162216912657,HIGH,REJECT/EDD,Prior Fraud History
+C5813,49.6,50,48.96416877924788,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5814,63.8,70,54.59860339759435,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High Digital Device Risk"
+C5815,99.7,100,99.16475036788839,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5816,56.4,60,51.028029113055105,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
+C5817,99.7,100,99.17901242320424,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5818,99.7,100,99.24918757958412,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5819,23.0,35,5.121922461948723,LOW,APPROVE,Missing/Invalid KYC Docs
+C5820,87.7,80,99.17599883732227,HIGH,REJECT/EDD,Prior Fraud History
+C5821,24.1,35,7.734660421067465,LOW,APPROVE,Missing/Invalid KYC Docs
+C5822,99.6,100,99.12289987111382,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5823,87.7,80,99.14811885949419,HIGH,REJECT/EDD,Prior Fraud History
+C5824,1.1,0,2.628486356951193,LOW,APPROVE,None
+C5825,96.6,95,99.0386576231088,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5826,99.7,100,99.18052839957345,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5827,1.1,0,2.6781837048212562,LOW,APPROVE,None
+C5828,45.4,40,53.41453456559226,MEDIUM,MANUAL_REVIEW,Adverse Media Found
+C5829,1.1,0,2.709850212942172,LOW,APPROVE,None
+C5830,99.6,100,99.11024391538945,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5831,99.7,100,99.3492885849222,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5832,64.3,65,63.18097118408568,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, High-Risk Geography"
+C5833,1.1,0,2.7004110270889132,LOW,APPROVE,None
+C5834,99.7,100,99.17465531342118,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5835,87.7,80,99.18507608185116,HIGH,REJECT/EDD,Prior Fraud History
+C5836,41.1,40,42.639672013534316,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5837,87.6,80,99.11713465652991,HIGH,REJECT/EDD,Prior Fraud History
+C5838,82.5,80,86.21367643187703,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5839,81.2,80,83.09221020818022,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5840,99.7,100,99.13348783725756,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk, Unverified Address"
+C5841,99.6,100,99.09062836341573,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5842,48.4,40,60.94907975701736,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5843,1.1,0,2.7888571214897295,LOW,APPROVE,None
+C5844,99.7,100,99.29965505949838,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5845,22.6,35,3.934271366065662,LOW,APPROVE,Missing/Invalid KYC Docs
+C5846,23.2,35,5.503774952107282,LOW,APPROVE,Missing/Invalid KYC Docs
+C5847,56.5,60,51.242392172138565,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5848,44.9,40,52.14268987497963,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5849,99.7,100,99.1604829048213,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5850,99.7,100,99.27727115011331,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5851,16.4,25,3.4595203612832286,LOW,APPROVE,High-Risk Geography
+C5852,99.7,100,99.23243232230581,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5853,96.7,95,99.13354351503499,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5854,99.7,100,99.12688643964154,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
+C5855,99.6,100,99.07290600032199,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5856,100.0,100,99.34234948703812,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
+C5857,99.7,100,99.31830714408859,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5858,99.7,100,99.2451849500487,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
+C5859,1.1,0,2.7024197663182083,LOW,APPROVE,None
+C5860,99.7,100,99.13761531567005,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
+C5861,63.6,65,61.45135778040241,MEDIUM,MANUAL_REVIEW,"Politically Exposed Person (PEP), High-Risk Geography"
+C5862,10.3,15,3.2035291424649635,LOW,APPROVE,Unverified Address
+C5863,53.3,55,50.83288721756427,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5864,99.7,100,99.18433875472284,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, Unverified Address"
+C5865,99.7,100,99.28406639710907,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5866,99.7,100,99.26345868631894,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, Unverified Address"
+C5867,1.0,0,2.616615752784498,LOW,APPROVE,None
+C5868,1.1,0,2.72380199697724,LOW,APPROVE,None
+C5869,1.1,0,2.6756171277016656,LOW,APPROVE,None
+C5870,99.6,100,99.0533602250901,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5871,22.9,35,4.834501560714525,LOW,APPROVE,Missing/Invalid KYC Docs
+C5872,87.7,80,99.13145852159873,HIGH,REJECT/EDD,Prior Fraud History
+C5873,10.5,15,3.853720849877715,LOW,APPROVE,Unverified Address
+C5874,99.6,100,99.11982551560521,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5875,99.7,100,99.2041568362122,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
+C5876,87.6,80,99.07058331126552,HIGH,REJECT/EDD,Prior Fraud History
+C5877,24.0,35,7.406269457635521,LOW,APPROVE,Missing/Invalid KYC Docs
+C5878,25.5,35,11.127010527154267,LOW,APPROVE,Missing/Invalid KYC Docs
+C5879,87.6,80,99.09748227823837,HIGH,REJECT/EDD,Prior Fraud History
+C5880,99.7,100,99.13002295182396,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5881,87.7,80,99.13289332017784,HIGH,REJECT/EDD,Prior Fraud History
+C5882,46.7,40,56.812374329536894,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5883,1.1,0,2.6359326416447715,LOW,APPROVE,None
+C5884,99.7,100,99.23694659524722,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5885,49.5,50,48.6991809122757,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5886,1.2,0,2.9540586791979515,LOW,APPROVE,None
+C5887,100.0,100,99.3289267749077,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History"
+C5888,93.1,90,97.79981884847818,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs, Unverified Address"
+C5889,96.7,95,99.20608274000311,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5890,99.7,100,99.34070078685089,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5891,10.3,15,3.3121568108223394,LOW,APPROVE,Unverified Address
+C5892,99.6,100,99.0687244360436,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5893,96.7,95,99.25561900513678,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5894,1.2,0,2.9732565689305464,LOW,APPROVE,None
+C5895,87.6,80,99.10787730944139,HIGH,REJECT/EDD,Prior Fraud History
+C5896,99.7,100,99.3502469135438,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5897,100.0,100,99.30801433830939,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, Missing/Invalid KYC Docs"
+C5898,13.3,20,3.2902971024195473,LOW,APPROVE,High Digital Device Risk
+C5899,96.7,95,99.21424698096747,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5900,79.7,80,79.2069448380562,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, High Digital Device Risk"
+C5901,99.6,100,99.11850779277758,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5902,22.9,35,4.75240763236364,LOW,APPROVE,Missing/Invalid KYC Docs
+C5903,1.1,0,2.828134356284183,LOW,APPROVE,None
+C5904,55.5,55,56.28963419272052,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
+C5905,99.7,100,99.21437032625855,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5906,99.7,100,99.21818553520694,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5907,84.5,75,98.86585127627976,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs"
+C5908,1.6,0,4.01628705023141,LOW,APPROVE,None
+C5909,99.6,100,98.87822335785039,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Adverse Media Found, Missing/Invalid KYC Docs"
+C5910,1.2,0,2.9664029678501773,LOW,APPROVE,None
+C5911,93.5,90,98.86087026762829,HIGH,REJECT/EDD,Prior Fraud History
+C5912,22.6,35,3.9026606818238188,LOW,APPROVE,Missing/Invalid KYC Docs
+C5913,84.2,75,97.93888825187499,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5914,99.7,100,99.32774620566222,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5915,56.5,60,51.26644836962718,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5916,1.1,0,2.686259934232954,LOW,APPROVE,None
+C5917,22.7,35,4.273793138962521,LOW,APPROVE,Missing/Invalid KYC Docs
+C5918,87.6,80,99.11901045211104,HIGH,REJECT/EDD,Prior Fraud History
+C5919,99.6,100,99.11988601983114,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), High Digital Device Risk"
+C5920,44.9,40,52.21320441355864,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP)
+C5921,22.5,35,3.80450030936405,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5922,99.7,100,99.35884708075704,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5923,99.7,100,99.20840583465166,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5924,100.0,100,99.20258521169121,HIGH,REJECT/EDD,"Sanctions List Match, Prior Fraud History, High Digital Device Risk"
+C5925,50.5,50,51.218973587414126,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, Unverified Address"
+C5926,87.6,80,99.1091081851963,HIGH,REJECT/EDD,Prior Fraud History
+C5927,99.7,100,99.36082541097004,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5928,99.7,100,99.23906506002919,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5929,44.2,40,50.526473250596844,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, Unverified Address"
+C5930,99.7,100,99.22037508064184,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5931,99.7,100,99.27933125750118,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography, High Digital Device Risk"
+C5932,99.7,100,99.26559880560507,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5933,96.3,95,98.27924439979179,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5934,53.2,55,50.4850670148506,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High Digital Device Risk"
+C5935,57.0,55,60.003253616115465,MEDIUM,MANUAL_REVIEW,"Adverse Media Found, Unverified Address"
+C5936,99.7,100,99.21590897920618,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5937,99.6,100,99.02600243829492,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, High Digital Device Risk"
+C5938,99.7,100,99.13342894179057,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5939,99.7,100,99.34820520148962,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5940,99.7,100,99.24596358196885,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5941,1.1,0,2.7653391579517366,LOW,APPROVE,None
+C5942,99.7,100,99.2882433406392,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5943,13.4,20,3.4111823259252345,LOW,APPROVE,High Digital Device Risk
+C5944,87.7,80,99.13604595073161,HIGH,REJECT/EDD,Prior Fraud History
+C5945,87.6,80,99.1014963166914,HIGH,REJECT/EDD,Prior Fraud History
+C5946,99.7,100,99.2435417108013,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5947,10.3,15,3.299073774231918,LOW,APPROVE,Unverified Address
+C5948,1.1,0,2.7225399955550476,LOW,APPROVE,None
+C5949,99.7,100,99.15056024107486,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5950,22.6,35,4.036707221211854,LOW,APPROVE,"High Digital Device Risk, Unverified Address"
+C5951,22.6,35,4.038387399180495,LOW,APPROVE,Missing/Invalid KYC Docs
+C5952,76.0,75,77.56808047972248,HIGH,REJECT/EDD,"Missing/Invalid KYC Docs, High-Risk Geography, Unverified Address"
+C5953,1.1,0,2.829035209288073,LOW,APPROVE,None
+C5954,99.7,100,99.19906465841252,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5955,96.4,95,98.46194824908835,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5956,99.6,100,98.87839401361926,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found"
+C5957,1.1,0,2.692361336236513,LOW,APPROVE,None
+C5958,99.7,100,99.24375347926093,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5959,1.1,0,2.7181091151855163,LOW,APPROVE,None
+C5960,1.1,0,2.793480408323845,LOW,APPROVE,None
+C5961,63.6,70,54.05927544321177,MEDIUM,MANUAL_REVIEW,"Missing/Invalid KYC Docs, High-Risk Geography"
+C5962,16.3,25,3.2238406866490177,LOW,APPROVE,High-Risk Geography
+C5963,10.7,15,4.361621067819289,LOW,APPROVE,Unverified Address
+C5964,99.7,100,99.23371220244093,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5965,99.7,100,99.17426701994609,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5966,96.7,95,99.16592544431985,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5967,96.6,95,99.07968647513928,HIGH,REJECT/EDD,"Prior Fraud History, Unverified Address"
+C5968,93.3,90,98.27154173221673,HIGH,REJECT/EDD,"Adverse Media Found, Missing/Invalid KYC Docs, Unverified Address"
+C5969,1.1,0,2.759075249845207,LOW,APPROVE,None
+C5970,99.7,100,99.14036864191847,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5971,99.7,100,99.24385542579776,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5972,13.7,20,4.153206040342268,LOW,APPROVE,High Digital Device Risk
+C5973,99.7,100,99.22948116863442,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Unverified Address"
+C5974,99.7,100,99.24456361059603,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5975,99.7,100,99.34205400338715,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5976,99.7,100,99.247848696299,HIGH,REJECT/EDD,"Prior Fraud History, High-Risk Geography"
+C5977,99.7,100,99.22805717953483,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5978,99.7,100,99.2484490054695,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5979,99.7,100,99.27114136063167,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5980,87.6,80,99.04757248522677,HIGH,REJECT/EDD,Prior Fraud History
+C5981,16.3,25,3.263466459433311,LOW,APPROVE,High-Risk Geography
+C5982,99.6,100,99.11074759296815,HIGH,REJECT/EDD,"Prior Fraud History, Politically Exposed Person (PEP)"
+C5983,99.7,100,99.21524377545205,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5984,7.4,10,3.454236791030614,LOW,APPROVE,None
+C5985,84.0,75,97.48880608883059,HIGH,REJECT/EDD,"Politically Exposed Person (PEP), Missing/Invalid KYC Docs"
+C5986,99.7,100,99.29804206528436,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5987,57.0,60,52.386285348783915,MEDIUM,MANUAL_REVIEW,"High-Risk Geography, High Digital Device Risk, Unverified Address"
+C5988,99.7,100,99.23493845759931,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High-Risk Geography"
+C5989,99.7,100,99.35637770634014,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5990,99.7,100,99.23191615575185,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs, High Digital Device Risk"
+C5991,1.1,0,2.748406337852581,LOW,APPROVE,None
+C5992,37.9,40,34.69384558166942,LOW,APPROVE,"High-Risk Geography, Unverified Address"
+C5993,99.7,100,99.12539925902756,HIGH,REJECT/EDD,"Prior Fraud History, High Digital Device Risk"
+C5994,87.7,80,99.19581913636286,HIGH,REJECT/EDD,Prior Fraud History
+C5995,99.7,100,99.25336286156637,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5996,20.1,30,5.25810775375289,LOW,APPROVE,High Digital Device Risk
+C5997,99.7,100,99.29175394130739,HIGH,REJECT/EDD,"Prior Fraud History, Missing/Invalid KYC Docs"
+C5998,99.7,100,99.28862195140988,HIGH,REJECT/EDD,"Prior Fraud History, Adverse Media Found, Missing/Invalid KYC Docs"
+C5999,10.2,15,3.0937737528661016,LOW,APPROVE,Unverified Address
