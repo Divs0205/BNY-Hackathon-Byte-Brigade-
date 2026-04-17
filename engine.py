@@ -1,8 +1,11 @@
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.calibration import CalibratedClassifierCV
 import numpy as np
 
-print("🚀 Starting KYC Risk Engine...")
+print("🚀 Starting KYC Risk Engine (with Random Forest)...")
 
 # ─────────────────────────────────────────────
 # 1. LOAD DATA
@@ -67,9 +70,9 @@ tenure_col = df['customer_tenure_years'] if 'customer_tenure_years' in df.column
 df['is_new_customer'] = (pd.to_numeric(tenure_col, errors='coerce').fillna(1) == 0).astype(int)
 
 # ─────────────────────────────────────────────
-# 3. SCORING & EXPLAINABILITY ENGINE
+# 3. RULE-BASED SCORING & EXPLAINABILITY ENGINE
 # ─────────────────────────────────────────────
-print("🧠 Calculating Risk Scores and Explanations...")
+print("🧠 Calculating Rule-Based Risk Scores and Explanations...")
 
 def evaluate_customer(row):
     score = 0
@@ -125,10 +128,137 @@ def evaluate_customer(row):
     return pd.Series([final_score, tier, decision, top_factors])
 
 
-df[['risk_score', 'risk_tier', 'decision', 'top_risk_factors']] = df.apply(evaluate_customer, axis=1)
+df[['rule_score', 'risk_tier_rule', 'decision_rule', 'top_risk_factors']] = df.apply(evaluate_customer, axis=1)
 
 # ─────────────────────────────────────────────
-# 4. EXPORT RESULTS
+# 4. RANDOM FOREST MODEL
+# ─────────────────────────────────────────────
+print("🌲 Training Random Forest model...")
+
+# Features used by the RF model
+RF_FEATURES = [
+    'pep_flag',
+    'sanctions_flag',
+    'adverse_media_flag',
+    'fraud_history_flag',
+    'address_verified',
+    'country_risk_encoded',
+    'doc_status_encoded',
+    'composite_compliance_risk',
+    'txn_to_income_ratio',
+    'is_new_customer',
+]
+
+# Add digital_risk_score if available
+if 'digital_risk_score' in df.columns:
+    RF_FEATURES.append('digital_risk_score')
+
+# Build feature matrix — all columns guaranteed to exist after preprocessing
+X = df[RF_FEATURES].copy()
+
+# Derive labels from rule-based scores for supervised training
+# 0 = LOW, 1 = MEDIUM, 2 = HIGH
+def score_to_label(score):
+    if score >= 75:
+        return 2
+    elif score >= 40:
+        return 1
+    else:
+        return 0
+
+y = df['rule_score'].apply(score_to_label)
+
+# Train/test split (stratified to preserve class balance)
+if len(df) >= 10:
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+else:
+    # Too few records — train on everything
+    X_train, X_test, y_train, y_test = X, X, y, y
+
+# Build and calibrate the Random Forest
+rf_base = RandomForestClassifier(
+    n_estimators=200,
+    max_depth=8,
+    min_samples_leaf=2,
+    class_weight='balanced',   # handles imbalanced HIGH/LOW classes
+    random_state=42,
+    n_jobs=-1
+)
+
+# Calibrate for reliable probability estimates (Platt scaling)
+rf_model = CalibratedClassifierCV(rf_base, cv='prefit' if len(df) < 10 else 5, method='sigmoid')
+
+if len(df) >= 10:
+    rf_base.fit(X_train, y_train)
+    rf_model = CalibratedClassifierCV(rf_base, cv=min(5, len(X_train)), method='sigmoid')
+    rf_model.fit(X_train, y_train)
+else:
+    rf_base.fit(X_train, y_train)
+    rf_model = rf_base   # skip calibration for tiny datasets
+
+# Predict class probabilities on all records
+rf_probs = rf_model.predict_proba(X)  # shape: (n, 3) — LOW / MEDIUM / HIGH
+
+# Convert RF HIGH-risk probability to a 0–100 score
+# Classes are ordered by the classifier: check actual order
+classes = list(rf_model.classes_) if hasattr(rf_model, 'classes_') else [0, 1, 2]
+high_idx  = classes.index(2) if 2 in classes else -1
+med_idx   = classes.index(1) if 1 in classes else -1
+
+if high_idx >= 0 and med_idx >= 0:
+    # Weighted: HIGH prob * 100 + MEDIUM prob * 50
+    df['rf_score'] = (rf_probs[:, high_idx] * 100 + rf_probs[:, med_idx] * 50).clip(0, 100)
+elif high_idx >= 0:
+    df['rf_score'] = (rf_probs[:, high_idx] * 100).clip(0, 100)
+else:
+    df['rf_score'] = df['rule_score']   # safe fallback
+
+print(f"   RF model trained on {len(X_train)} records | classes: {classes}")
+
+# Feature importances (informational)
+try:
+    importances = rf_base.feature_importances_
+    fi_df = pd.DataFrame({'feature': RF_FEATURES, 'importance': importances})
+    fi_df = fi_df.sort_values('importance', ascending=False)
+    print("\n   📊 Top Feature Importances (Random Forest):")
+    for _, row in fi_df.head(5).iterrows():
+        print(f"      {row['feature']:35s}  {row['importance']:.4f}")
+    print()
+except Exception:
+    pass
+
+# ─────────────────────────────────────────────
+# 5. HYBRID SCORE (Rule-based + RF Blend)
+# ─────────────────────────────────────────────
+# Blend weights: 60% rule-based (transparent compliance logic) +
+#                40% Random Forest (pattern detection)
+RULE_WEIGHT = 0.60
+RF_WEIGHT   = 0.40
+
+df['risk_score'] = (
+    RULE_WEIGHT * df['rule_score'] + RF_WEIGHT * df['rf_score']
+).clip(0, 100).round(1)
+
+# Hard override: sanctions always → HIGH regardless of blend
+sanctions_mask = df['sanctions_flag'] == 1
+df.loc[sanctions_mask, 'risk_score'] = 100.0
+
+# Final tier and decision from hybrid score
+def assign_tier_decision(row):
+    score = row['risk_score']
+    if score >= 75 or row['sanctions_flag'] == 1:
+        return pd.Series(['HIGH', 'REJECT/EDD'])
+    elif score >= 40:
+        return pd.Series(['MEDIUM', 'MANUAL_REVIEW'])
+    else:
+        return pd.Series(['LOW', 'APPROVE'])
+
+df[['risk_tier', 'decision']] = df.apply(assign_tier_decision, axis=1)
+
+# ─────────────────────────────────────────────
+# 6. EXPORT RESULTS
 # ─────────────────────────────────────────────
 print("💾 Saving final kyc_output.csv...")
 
@@ -136,13 +266,21 @@ print("💾 Saving final kyc_output.csv...")
 if 'customer_id' not in df.columns:
     df['customer_id'] = ['C' + str(i).zfill(4) for i in range(1, len(df) + 1)]
 
-final_columns = ['customer_id', 'risk_score', 'risk_tier', 'decision', 'top_risk_factors']
+final_columns = [
+    'customer_id',
+    'risk_score',       # hybrid score (rule + RF blend)
+    'rule_score',       # rule-based score (for audit/explainability)
+    'rf_score',         # random forest score (for audit/explainability)
+    'risk_tier',
+    'decision',
+    'top_risk_factors'  # from rule-based engine (human-readable)
+]
 df[final_columns].to_csv('kyc_output.csv', index=False)
 
 print("✅ SUCCESS! 'kyc_output.csv' has been generated. Upload it to your Streamlit dashboard now!")
 
 # ─────────────────────────────────────────────
-# 5. QUICK SUMMARY PRINT
+# 7. QUICK SUMMARY PRINT
 # ─────────────────────────────────────────────
 total    = len(df)
 approved = (df['decision'] == 'APPROVE').sum()
@@ -156,5 +294,7 @@ print(f"  Total evaluated  : {total}")
 print(f"  ✅ Approved       : {approved} ({approved/total*100:.1f}%)")
 print(f"  🟡 Manual Review  : {manual}   ({manual/total*100:.1f}%)")
 print(f"  🔴 Flagged/EDD    : {flagged}  ({flagged/total*100:.1f}%)")
-print(f"  Avg risk score   : {df['risk_score'].mean():.1f}")
+print(f"  Avg hybrid score : {df['risk_score'].mean():.1f}")
+print(f"  Avg rule score   : {df['rule_score'].mean():.1f}")
+print(f"  Avg RF score     : {df['rf_score'].mean():.1f}")
 print(f"{'═' * 45}\n")
